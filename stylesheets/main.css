@@ -12,6 +12,22 @@
   color: #595959;
 }
 
+/* line 14, ../sass/base/_base.scss */
+.primary-btn {
+  background-color: #014a81;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 5px 8px;
+  margin: 10px 0px;
+  transition: 0.5s;
+}
+/* line 22, ../sass/base/_base.scss */
+.primary-btn:hover {
+  background-color: #003860;
+  border: 2px solid #2189d3;
+}
+
 /* line 5, ../sass/module/_navbar.scss */
 header .header--image {
   margin: 10px 0px;
@@ -1158,4 +1174,19 @@ Javascript disabled
     -webkit-transform: skew(0deg, 0deg);
     transform: skew(0deg, 0deg);
   }
+}
+/* line 1, ../sass/module/_course.scss */
+.course {
+  color: white;
+  background-color: #014a81;
+}
+/* line 4, ../sass/module/_course.scss */
+.course--box {
+  padding: 5px 10px;
+  transition: 0.3s ease-in-out;
+}
+/* line 8, ../sass/module/_course.scss */
+.course--box:hover {
+  cursor: pointer;
+  background-color: #003860;
 }

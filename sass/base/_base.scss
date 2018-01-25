@@ -11,3 +11,18 @@
 	}
 }
 
+.primary-btn{
+	background-color: $primary-color;
+	color: white;
+	border: 2px solid white;
+	border-radius: 6px;
+	padding: 5px 8px;
+	margin: 10px 0px;
+	transition: 0.5s;
+	&:hover{
+		background-color: $dark-primary;
+		border: 2px solid $faded-primary;
+	}
+}
+
+
