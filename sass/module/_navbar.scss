@@ -7,7 +7,10 @@ header{
 .navbar {
   background-color: $primary-color !important;
   border-radius: 0px !important;
+  z-index: 999;
+  border: 0px !important;
   &-default {
+    border: 0px;
     li {
       a {
         color: white !important;
