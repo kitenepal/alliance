@@ -202,3 +202,7 @@ header{
   left: 0;
   right: auto;
 }
+
+.navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover{
+  background-color: $faded-primary !important;
+}
