@@ -1150,17 +1150,13 @@ Javascript disabled
 
 /* line 1, ../sass/module/_about.scss */
 .about {
-  margin: 0px;
+  padding: 20px;
 }
 /* line 3, ../sass/module/_about.scss */
 .about--text {
   z-index: 1;
 }
-/* line 5, ../sass/module/_about.scss */
-.about--text h1, .about--text p {
-  padding-left: 20px;
-}
-/* line 9, ../sass/module/_about.scss */
+/* line 6, ../sass/module/_about.scss */
 .about--text:after {
   content: " ";
   position: absolute;
@@ -1177,7 +1173,7 @@ Javascript disabled
 }
 
 @media (max-width: 750px) {
-  /* line 29, ../sass/module/_about.scss */
+  /* line 26, ../sass/module/_about.scss */
   .about--text:after {
     -ms-transform: skew(0deg, 0deg);
     -webkit-transform: skew(0deg, 0deg);
