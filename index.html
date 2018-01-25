@@ -6,11 +6,13 @@
   <link rel="icon" href="img/logo.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/modernizr.js"></script>
 </head>
 
 <body>
@@ -18,6 +20,7 @@
   <header>
     <div class="container">
       <div class="col-md-6">
+        <img src="img/headerLogo.jpg" alt="Head Logo" class="header--image">
       </div>
       <div class="col-md-6">
         <h5 class="text__right"><strong><span class="color color__red"><i class="fa fa-phone" aria-hidden="true"></i>
@@ -87,8 +90,84 @@
       </div>
     </div>
   </header>
-
-	<section class="about">
+  <!-- End of header and navbar -->
+  <!--Start of hero image slider -->
+  <section class="cd-hero">
+    <ul class="cd-hero-slider autoplay">
+      <li class="selected">
+        <div class="cd-full-width">
+          <h2>Hero slider</h2>
+          <p>A simple, responsive slideshow in CSS &amp; jQuery.</p>
+          <a href="http://codyhouse.co/?p=675" class="cd-btn">Article &amp; Download</a>
+        </div>
+        <!-- .cd-full-width -->
+      </li>
+      <li>
+        <div class="cd-half-width">
+          <h2>Slide title here</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+          <a href="#0" class="cd-btn">Start</a>
+          <a href="#0" class="cd-btn secondary">Learn More</a>
+        </div>
+        <!-- .cd-half-width -->
+        <div class="cd-half-width cd-img-container">
+          <img src="assets/tech-1.jpg" alt="tech 1">
+        </div>
+        <!-- .cd-half-width.cd-img-container -->
+      </li>
+      <li>
+        <div class="cd-half-width cd-img-container">
+          <img src="assets/tech-2.jpg" alt="tech 2">
+        </div>
+        <!-- .cd-half-width.cd-img-container -->
+        <div class="cd-half-width">
+          <h2>Slide title here</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+          <a href="#0" class="cd-btn">Start</a>
+          <a href="#0" class="cd-btn secondary">Learn More</a>
+        </div>
+        <!-- .cd-half-width -->
+      </li>
+      <li class="cd-bg-video">
+        <div class="cd-full-width">
+          <h2>Slide title here</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+          <a href="#0" class="cd-btn">Learn more</a>
+        </div>
+        <!-- .cd-full-width -->
+        <div class="cd-bg-video-wrapper" data-video="assets/video/video">
+          <!-- video element will be loaded using jQuery -->
+        </div>
+        <!-- .cd-bg-video-wrapper -->
+      </li>
+      <li>
+        <div class="cd-full-width">
+          <h2>Slide title here</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
+          <a href="#0" class="cd-btn">Start</a>
+          <a href="#0" class="cd-btn secondary">Learn More</a>
+        </div>
+        <!-- .cd-full-width -->
+      </li>
+    </ul>
+    <!-- .cd-hero-slider -->
+    <div class="cd-slider-nav">
+      <nav>
+        <span class="cd-marker item-1"></span>
+        <ul>
+          <li class="selected"><a href="#0">Intro</a></li>
+          <li><a href="#0">Tech 1</a></li>
+          <li><a href="#0">Tech 2</a></li>
+          <li><a href="#0">Video</a></li>
+          <li><a href="#0">Image</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- .cd-slider-nav -->
+  </section>
+  <!-- .cd-hero -->
+  <!-- End of hero image slider -->
+  <section class="about">
             <div class="row">
                 <div class="col-md-6 about--text">
                     <h1>ABOUT US</h1>
@@ -102,7 +181,78 @@
                 </div>
             </div>
     </section>
-
+  <section class="course">
+    <div class="container">
+      <div class="row">
+      <center>
+        <h1>Course</h1></center>
+      <div class="col-md-3">
+        <div class="course--box">
+          <h3>Laptop and Card Level</h3>
+          <ul>
+            <li>Laptop Basic</li>
+            <li>Bios Setting</li>
+            <li>Bios Update</li>
+            <li>Partition Magic</li>
+            <li>Partitioning, Formatting</li>
+            <li>Window Installation(Windows 98, XP SP1,2,3,Vista,Win-7,Win-8)</li>
+            <li>Online Driver Installation</li>
+            <li>offline Driver Installation</li>
+            <li>Driver Backup/Restore</li>
+            <li>Windows Backup Restore</li>
+            <li>Window File Repair</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="course--box">
+          <h3>Desktop PC Hardware</h3>
+          <ul>
+            <li>The best way to disassembly a desktop pc</li>
+            <li>Tools and test equipment’s</li>
+            <li> Schematic diagrams</li>
+            <li> How to fit/install destop hard drives you’ll discover.</li>
+            <li> Integrated circuits </li>
+            <li>Advance chip-level desktop motherboard repair</li>
+            <li>IC chip soldering & desoldering</li>
+            <li> Motherboard overview: main signals of Motherboard</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="course--box">
+          <h3>Machine Training</h3>
+          <ul>
+            <li>VGA machine training</li>
+            <li>CRO training</li>
+            <li>IRD machine training</li>
+            <li>Bios falsing training</li>
+            <li>And all laptop related machine training</li>
+            <li>One time see the this website</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="course--box">
+          <h3>Mobile</h3>
+          <ul>
+            <li>History of Mobile Phone</li>
+            <li>GSM & CDMA Structure & Generation of Mobile Phone</li>
+            <li>Frequency & Channels</li>
+            <li>Wi-Fi, SIM, & IMEI</li>
+            <li>Mobile Phone Assembly & Disassembly</li>
+            <li>Electronic Components Overview</li>
+            <li>Chip Level Soldering & De-soldering</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <center><button class="primary-btn">Read More</button></center>
+    </div>
+  </section>
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Resource jQuery -->
   <script src="js/navbar.js"></script>
 </body>
 

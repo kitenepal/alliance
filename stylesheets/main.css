@@ -12,54 +12,81 @@
   color: #595959;
 }
 
-/* line 7, ../sass/module/_navbar.scss */
+/* line 14, ../sass/base/_base.scss */
+.primary-btn {
+  background-color: #014a81;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 5px 8px;
+  margin: 10px 0px;
+  transition: 0.5s;
+}
+/* line 22, ../sass/base/_base.scss */
+.primary-btn:hover {
+  background-color: #003860;
+  border: 2px solid #2189d3;
+}
+
+/* line 5, ../sass/module/_navbar.scss */
+header .header--image {
+  margin: 10px 0px;
+}
+
+/* line 10, ../sass/module/_navbar.scss */
 .navbar {
   background-color: #014a81 !important;
   border-radius: 0px !important;
+  z-index: 999;
+  border: 0px !important;
 }
-/* line 12, ../sass/module/_navbar.scss */
+/* line 15, ../sass/module/_navbar.scss */
+.navbar-default {
+  border: 0px;
+}
+/* line 18, ../sass/module/_navbar.scss */
 .navbar-default li a {
   color: white !important;
   transition: 0.3s ease-in-out;
 }
-/* line 16, ../sass/module/_navbar.scss */
+/* line 22, ../sass/module/_navbar.scss */
 .navbar-default li a:hover {
   background-color: #2189d3 !important;
 }
-/* line 19, ../sass/module/_navbar.scss */
+/* line 25, ../sass/module/_navbar.scss */
 .navbar-default li a:active {
   background-color: #2189d3 !important;
 }
-/* line 22, ../sass/module/_navbar.scss */
+/* line 28, ../sass/module/_navbar.scss */
 .navbar-default li a:focus {
   background-color: #2189d3 !important;
 }
-/* line 27, ../sass/module/_navbar.scss */
+/* line 33, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu {
   background-color: #014a81;
 }
-/* line 30, ../sass/module/_navbar.scss */
+/* line 36, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a {
   color: white !important;
 }
-/* line 33, ../sass/module/_navbar.scss */
+/* line 39, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a:hover {
   background-color: #2189d3 !important;
 }
-/* line 36, ../sass/module/_navbar.scss */
+/* line 42, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a:active {
   background-color: #2189d3 !important;
 }
-/* line 39, ../sass/module/_navbar.scss */
+/* line 45, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a:focus {
   background-color: #2189d3 !important;
 }
-/* line 43, ../sass/module/_navbar.scss */
+/* line 49, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu .divider {
   background-color: #2189d3 !important;
 }
 
-/* line 49, ../sass/module/_navbar.scss */
+/* line 55, ../sass/module/_navbar.scss */
 .navbar-nav:not(.sm-collapsible) ul .caret {
   position: absolute;
   right: 0;
@@ -70,13 +97,13 @@
   border-left: 4px dashed;
 }
 
-/* line 59, ../sass/module/_navbar.scss */
+/* line 65, ../sass/module/_navbar.scss */
 .navbar-nav:not(.sm-collapsible) ul a.has-submenu {
   padding-right: 30px;
 }
 
 /* make sub menu arrows look like +/- buttons in collapsible mode */
-/* line 66, ../sass/module/_navbar.scss */
+/* line 72, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible .caret,
 .navbar-nav.sm-collapsible ul .caret {
   position: absolute;
@@ -91,25 +118,25 @@
   border-style: solid;
 }
 
-/* line 80, ../sass/module/_navbar.scss */
+/* line 86, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible .caret:before {
   content: '+';
   font-family: monospace;
   font-weight: bold;
 }
 
-/* line 86, ../sass/module/_navbar.scss */
+/* line 92, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible .open > a > .caret:before {
   content: '-';
 }
 
-/* line 90, ../sass/module/_navbar.scss */
+/* line 96, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible a.has-submenu {
   padding-right: 50px;
 }
 
 /* revert to Bootstrap's default carets in collapsible mode when the "data-sm-skip-collapsible-behavior" attribute is set to the ul.navbar-nav */
-/* line 97, ../sass/module/_navbar.scss */
+/* line 103, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret,
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] ul .caret {
   position: static;
@@ -123,18 +150,18 @@
   border-left: 4px solid transparent;
 }
 
-/* line 110, ../sass/module/_navbar.scss */
+/* line 116, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret:before {
   content: '' !important;
 }
 
-/* line 114, ../sass/module/_navbar.scss */
+/* line 120, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] a.has-submenu {
   padding-right: 15px;
 }
 
 /* scrolling arrows for tall menus */
-/* line 121, ../sass/module/_navbar.scss */
+/* line 127, ../sass/module/_navbar.scss */
 .navbar-nav span.scroll-up,
 .navbar-nav span.scroll-down {
   position: absolute;
@@ -145,7 +172,7 @@
   text-align: center;
 }
 
-/* line 131, ../sass/module/_navbar.scss */
+/* line 137, ../sass/module/_navbar.scss */
 .navbar-nav span.scroll-up-arrow,
 .navbar-nav span.scroll-down-arrow {
   position: absolute;
@@ -161,7 +188,7 @@
   border-left: 7px dashed transparent;
 }
 
-/* line 146, ../sass/module/_navbar.scss */
+/* line 152, ../sass/module/_navbar.scss */
 .navbar-nav span.scroll-down-arrow {
   top: 6px;
   border-top: 7px solid;
@@ -171,51 +198,949 @@
 }
 
 /* add more indentation for 2+ level sub in collapsible mode - Bootstrap normally supports just 1 level sub menus */
-/* line 157, ../sass/module/_navbar.scss */
+/* line 163, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul .dropdown-menu .dropdown-header {
   padding-left: 35px;
 }
 
-/* line 162, ../sass/module/_navbar.scss */
+/* line 168, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul ul .dropdown-menu .dropdown-header {
   padding-left: 45px;
 }
 
-/* line 167, ../sass/module/_navbar.scss */
+/* line 173, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul ul ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul ul ul .dropdown-menu .dropdown-header {
   padding-left: 55px;
 }
 
-/* line 172, ../sass/module/_navbar.scss */
+/* line 178, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu .dropdown-header {
   padding-left: 65px;
 }
 
 /* fix SmartMenus sub menus auto width (subMenusMinWidth and subMenusMaxWidth options) */
-/* line 180, ../sass/module/_navbar.scss */
+/* line 186, ../sass/module/_navbar.scss */
 .navbar-nav .dropdown-menu > li > a {
   white-space: normal;
 }
 
-/* line 184, ../sass/module/_navbar.scss */
+/* line 190, ../sass/module/_navbar.scss */
 .navbar-nav ul.sm-nowrap > li > a {
   white-space: nowrap;
 }
 
-/* line 188, ../sass/module/_navbar.scss */
+/* line 194, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul.sm-nowrap > li > a {
   white-space: normal;
 }
 
 /* fix .navbar-right subs alignment */
-/* line 195, ../sass/module/_navbar.scss */
+/* line 201, ../sass/module/_navbar.scss */
 .navbar-right ul.dropdown-menu {
   left: 0;
   right: auto;
+}
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+/* line 6, ../sass/module/_hero.scss */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/module/_hero.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 16, ../sass/module/_hero.scss */
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2c343b;
+  background-color: #f2f2f2;
+}
+
+/* line 23, ../sass/module/_hero.scss */
+a {
+  color: #d44457;
+  text-decoration: none !important;
+}
+
+/* line 28, ../sass/module/_hero.scss */
+img {
+  max-width: 100%;
+}
+
+/* -------------------------------- 
+
+Main Components 
+
+-------------------------------- */
+/* line 37, ../sass/module/_hero.scss */
+.cd-header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #21272c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 49, ../sass/module/_hero.scss */
+  .cd-header {
+    height: 70px;
+    background-color: transparent;
+  }
+}
+/* line 55, ../sass/module/_hero.scss */
+#cd-logo {
+  float: left;
+  margin: 13px 0 0 5%;
+}
+
+/* line 59, ../sass/module/_hero.scss */
+#cd-logo img {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 63, ../sass/module/_hero.scss */
+  #cd-logo {
+    margin: 23px 0 0 5%;
+  }
+}
+/* line 68, ../sass/module/_hero.scss */
+.cd-primary-nav {
+  /* mobile first - navigation hidden by default, triggered by tap/click on navigation icon */
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background: url("../assets/cd-icon-menu.svg") no-repeat center center;
+}
+
+/* line 76, ../sass/module/_hero.scss */
+.cd-primary-nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+/* line 87, ../sass/module/_hero.scss */
+.cd-primary-nav ul.is-visible {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  transform: translateY(50px);
+}
+
+/* line 95, ../sass/module/_hero.scss */
+.cd-primary-nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 5%;
+  background: #21272c;
+  border-top: 1px solid #333c44;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 105, ../sass/module/_hero.scss */
+  .cd-primary-nav {
+    /* reset navigation values */
+    width: auto;
+    height: auto;
+    background: none;
+  }
+
+  /* line 111, ../sass/module/_hero.scss */
+  .cd-primary-nav ul {
+    position: static;
+    width: auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    line-height: 70px;
+  }
+
+  /* line 121, ../sass/module/_hero.scss */
+  .cd-primary-nav ul.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 128, ../sass/module/_hero.scss */
+  .cd-primary-nav li {
+    display: inline-block;
+    margin-left: 1em;
+  }
+
+  /* line 132, ../sass/module/_hero.scss */
+  .cd-primary-nav a {
+    display: inline-block;
+    height: auto;
+    font-weight: 600;
+    line-height: normal;
+    background: transparent;
+    padding: .6em 1em;
+    border-top: none;
+  }
+}
+/* -------------------------------- 
+
+Slider
+-------------------------------- */
+/* line 147, ../sass/module/_hero.scss */
+.cd-hero {
+  margin-top: -20px;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 154, ../sass/module/_hero.scss */
+.cd-hero-slider {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+/* line 159, ../sass/module/_hero.scss */
+.cd-hero-slider li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+/* line 171, ../sass/module/_hero.scss */
+.cd-hero-slider li.selected {
+  /* this is the visible slide */
+  position: relative;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 180, ../sass/module/_hero.scss */
+.cd-hero-slider li.move-left {
+  /* slide hidden on the left */
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+/* line 188, ../sass/module/_hero.scss */
+.cd-hero-slider li.is-moving, .cd-hero-slider li.selected {
+  /* the is-moving class is assigned to the slide which is moving outside the viewport */
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 195, ../sass/module/_hero.scss */
+  .cd-hero-slider {
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  /* line 200, ../sass/module/_hero.scss */
+  .cd-hero-slider {
+    height: 680px;
+  }
+}
+/* -------------------------------- 
+
+Single slide style
+
+-------------------------------- */
+/* line 210, ../sass/module/_hero.scss */
+.cd-hero-slider li {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 215, ../sass/module/_hero.scss */
+.cd-hero-slider li:first-of-type {
+  background-color: #2c343b;
+}
+
+/* line 218, ../sass/module/_hero.scss */
+.cd-hero-slider li:nth-of-type(2) {
+  background-color: #3d4952;
+  background-image: url("../assets/tech-1-mobile.jpg");
+}
+
+/* line 222, ../sass/module/_hero.scss */
+.cd-hero-slider li:nth-of-type(3) {
+  background-color: #586775;
+  background-image: url("../assets/tech-2-mobile.jpg");
+}
+
+/* line 226, ../sass/module/_hero.scss */
+.cd-hero-slider li:nth-of-type(4) {
+  background-color: #2c343b;
+  background-image: url("../assets/video-replace-mobile.jpg");
+}
+
+/* line 230, ../sass/module/_hero.scss */
+.cd-hero-slider li:nth-of-type(5) {
+  background-color: #2c343b;
+  background-image: url(../assets/img.jpg);
+}
+
+/* line 234, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-full-width,
+.cd-hero-slider .cd-half-width {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  /* this padding is used to align the text */
+  padding-top: 100px;
+  text-align: center;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* line 254, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-img-container {
+  /* hide image on mobile device */
+  display: none;
+}
+
+/* line 258, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-img-container img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* line 270, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-bg-video-wrapper {
+  /* hide video on mobile device */
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 280, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-bg-video-wrapper video {
+  /* you won't see this element in the html, but it will be injected using js */
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: none;
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* line 299, ../sass/module/_hero.scss */
+.cd-hero-slider h2, .cd-hero-slider p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  line-height: 1.2;
+  margin: 0 auto 14px;
+  color: #ffffff;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* line 307, ../sass/module/_hero.scss */
+.cd-hero-slider h2 {
+  font-size: 2.4rem;
+}
+
+/* line 310, ../sass/module/_hero.scss */
+.cd-hero-slider p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+/* line 314, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-btn {
+  display: inline-block;
+  padding: 1.2em 1.4em;
+  margin-top: .8em;
+  background-color: rgba(212, 68, 87, 0.9);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+/* line 329, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-btn.secondary {
+  background-color: rgba(22, 26, 30, 0.8);
+}
+
+/* line 332, ../sass/module/_hero.scss */
+.cd-hero-slider .cd-btn:nth-of-type(2) {
+  margin-left: 1em;
+}
+
+/* line 335, ../sass/module/_hero.scss */
+.no-touch .cd-hero-slider .cd-btn:hover {
+  background-color: #d44457;
+}
+
+/* line 338, ../sass/module/_hero.scss */
+.no-touch .cd-hero-slider .cd-btn.secondary:hover {
+  background-color: #161a1e;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 342, ../sass/module/_hero.scss */
+  .cd-hero-slider li:nth-of-type(2) {
+    background-image: none;
+  }
+
+  /* line 345, ../sass/module/_hero.scss */
+  .cd-hero-slider li:nth-of-type(3) {
+    background-image: none;
+  }
+
+  /* line 348, ../sass/module/_hero.scss */
+  .cd-hero-slider li:nth-of-type(4) {
+    background-image: none;
+  }
+
+  /* line 351, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-full-width,
+  .cd-hero-slider .cd-half-width {
+    padding-top: 150px;
+  }
+
+  /* line 355, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-bg-video-wrapper {
+    display: block;
+  }
+
+  /* line 358, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-half-width {
+    width: 45%;
+  }
+
+  /* line 361, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-half-width:first-of-type {
+    left: 5%;
+  }
+
+  /* line 364, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-half-width:nth-of-type(2) {
+    right: 5%;
+    left: auto;
+  }
+
+  /* line 368, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-img-container {
+    display: block;
+  }
+
+  /* line 371, ../sass/module/_hero.scss */
+  .cd-hero-slider h2, .cd-hero-slider p {
+    max-width: 520px;
+  }
+
+  /* line 374, ../sass/module/_hero.scss */
+  .cd-hero-slider h2 {
+    font-size: 2.4em;
+    font-weight: 300;
+  }
+
+  /* line 378, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-btn {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  /* line 383, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-full-width,
+  .cd-hero-slider .cd-half-width {
+    padding-top: 220px;
+  }
+
+  /* line 387, ../sass/module/_hero.scss */
+  .cd-hero-slider h2, .cd-hero-slider p {
+    margin-bottom: 20px;
+  }
+
+  /* line 390, ../sass/module/_hero.scss */
+  .cd-hero-slider h2 {
+    font-size: 3.2em;
+  }
+
+  /* line 393, ../sass/module/_hero.scss */
+  .cd-hero-slider p {
+    font-size: 1.6rem;
+  }
+}
+/* -------------------------------- 
+
+Single slide animation
+
+-------------------------------- */
+@media only screen and (min-width: 768px) {
+  /* line 404, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-half-width {
+    opacity: 0;
+    -webkit-transform: translateX(40px);
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -o-transform: translateX(40px);
+    transform: translateX(40px);
+  }
+
+  /* line 412, ../sass/module/_hero.scss */
+  .cd-hero-slider .move-left .cd-half-width {
+    -webkit-transform: translateX(-40px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
+  }
+
+  /* line 419, ../sass/module/_hero.scss */
+  .cd-hero-slider .selected .cd-half-width {
+    /* this is the visible slide */
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 428, ../sass/module/_hero.scss */
+  .cd-hero-slider .is-moving .cd-half-width {
+    /* this is the slide moving outside the viewport 
+    wait for the end of the transition on the <li> parent before set opacity to 0 and translate to 40px/-40px */
+    -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
+    -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
+    transition: opacity 0s 0.5s, transform 0s 0.5s;
+  }
+
+  /* line 435, ../sass/module/_hero.scss */
+  .cd-hero-slider li.selected.from-left .cd-half-width:nth-of-type(2),
+  .cd-hero-slider li.selected.from-right .cd-half-width:first-of-type {
+    /* this is the selected slide - different animation if it's entering from left or right */
+    -webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.5s 0.2s;
+    -moz-transition: opacity 0.4s 0.2s, -moz-transform 0.5s 0.2s;
+    transition: opacity 0.4s 0.2s, transform 0.5s 0.2s;
+  }
+
+  /* line 442, ../sass/module/_hero.scss */
+  .cd-hero-slider li.selected.from-left .cd-half-width:first-of-type,
+  .cd-hero-slider li.selected.from-right .cd-half-width:nth-of-type(2) {
+    /* this is the selected slide - different animation if it's entering from left or right */
+    -webkit-transition: opacity 0.4s 0.4s, -webkit-transform 0.5s 0.4s;
+    -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s;
+    transition: opacity 0.4s 0.4s, transform 0.5s 0.4s;
+  }
+
+  /* line 449, ../sass/module/_hero.scss */
+  .cd-hero-slider .cd-full-width h2,
+  .cd-hero-slider .cd-full-width p,
+  .cd-hero-slider .cd-full-width .cd-btn {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+
+  /* line 459, ../sass/module/_hero.scss */
+  .cd-hero-slider .move-left .cd-full-width h2,
+  .cd-hero-slider .move-left .cd-full-width p,
+  .cd-hero-slider .move-left .cd-full-width .cd-btn {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  /* line 469, ../sass/module/_hero.scss */
+  .cd-hero-slider .selected .cd-full-width h2,
+  .cd-hero-slider .selected .cd-full-width p,
+  .cd-hero-slider .selected .cd-full-width .cd-btn {
+    /* this is the visible slide */
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+  /* line 480, ../sass/module/_hero.scss */
+  .cd-hero-slider li.is-moving .cd-full-width h2,
+  .cd-hero-slider li.is-moving .cd-full-width p,
+  .cd-hero-slider li.is-moving .cd-full-width .cd-btn {
+    /* this is the slide moving outside the viewport 
+    wait for the end of the transition on the li parent before set opacity to 0 and translate to 100px/-100px */
+    -webkit-transition: opacity 0s 0.5s, -webkit-transform 0s 0.5s;
+    -moz-transition: opacity 0s 0.5s, -moz-transform 0s 0.5s;
+    transition: opacity 0s 0.5s, transform 0s 0.5s;
+  }
+
+  /* line 489, ../sass/module/_hero.scss */
+  .cd-hero-slider li.selected h2 {
+    -webkit-transition: opacity 0.4s 0.2s, -webkit-transform 0.5s 0.2s;
+    -moz-transition: opacity 0.4s 0.2s, -moz-transform 0.5s 0.2s;
+    transition: opacity 0.4s 0.2s, transform 0.5s 0.2s;
+  }
+
+  /* line 494, ../sass/module/_hero.scss */
+  .cd-hero-slider li.selected p {
+    -webkit-transition: opacity 0.4s 0.3s, -webkit-transform 0.5s 0.3s;
+    -moz-transition: opacity 0.4s 0.3s, -moz-transform 0.5s 0.3s;
+    transition: opacity 0.4s 0.3s, transform 0.5s 0.3s;
+  }
+
+  /* line 499, ../sass/module/_hero.scss */
+  .cd-hero-slider li.selected .cd-btn {
+    -webkit-transition: opacity 0.4s 0.4s, -webkit-transform 0.5s 0.4s, background-color 0.2s 0s;
+    -moz-transition: opacity 0.4s 0.4s, -moz-transform 0.5s 0.4s, background-color 0.2s 0s;
+    transition: opacity 0.4s 0.4s, transform 0.5s 0.4s, background-color 0.2s 0s;
+  }
+}
+/* -------------------------------- 
+
+Slider navigation
+
+-------------------------------- */
+/* line 510, ../sass/module/_hero.scss */
+.cd-slider-nav {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  height: 55px;
+  background-color: rgba(0, 1, 1, 0.5);
+}
+
+/* line 519, ../sass/module/_hero.scss */
+.cd-slider-nav nav, .cd-slider-nav ul, .cd-slider-nav li, .cd-slider-nav a {
+  height: 100%;
+}
+
+/* line 522, ../sass/module/_hero.scss */
+.cd-slider-nav nav {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 526, ../sass/module/_hero.scss */
+.cd-slider-nav .cd-marker {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  color: #d44457;
+  background-color: #ffffff;
+  box-shadow: inset 0 2px 0 currentColor;
+  -webkit-transition: -webkit-transform 0.2s, box-shadow 0.2s;
+  -moz-transition: -moz-transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* line 539, ../sass/module/_hero.scss */
+.cd-slider-nav .cd-marker.item-2 {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+/* line 546, ../sass/module/_hero.scss */
+.cd-slider-nav .cd-marker.item-3 {
+  -webkit-transform: translateX(200%);
+  -moz-transform: translateX(200%);
+  -ms-transform: translateX(200%);
+  -o-transform: translateX(200%);
+  transform: translateX(200%);
+}
+
+/* line 553, ../sass/module/_hero.scss */
+.cd-slider-nav .cd-marker.item-4 {
+  -webkit-transform: translateX(300%);
+  -moz-transform: translateX(300%);
+  -ms-transform: translateX(300%);
+  -o-transform: translateX(300%);
+  transform: translateX(300%);
+}
+
+/* line 560, ../sass/module/_hero.scss */
+.cd-slider-nav .cd-marker.item-5 {
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+  transform: translateX(400%);
+}
+
+/* line 567, ../sass/module/_hero.scss */
+.cd-slider-nav ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 572, ../sass/module/_hero.scss */
+.cd-slider-nav li {
+  display: inline-block;
+  width: 60px;
+  float: left;
+}
+
+/* line 577, ../sass/module/_hero.scss */
+.cd-slider-nav li.selected a {
+  color: #2c343b;
+}
+
+/* line 580, ../sass/module/_hero.scss */
+.no-touch .cd-slider-nav li.selected a:hover {
+  background-color: transparent;
+}
+
+/* line 583, ../sass/module/_hero.scss */
+.cd-slider-nav a {
+  display: block;
+  position: relative;
+  padding-top: 35px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #a8b4be;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+/* line 594, ../sass/module/_hero.scss */
+.cd-slider-nav a::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: url(../assets/cd-icon-navigation.svg) no-repeat 0 0;
+}
+
+/* line 609, ../sass/module/_hero.scss */
+.no-touch .cd-slider-nav a:hover {
+  background-color: rgba(0, 1, 1, 0.5);
+}
+
+/* line 612, ../sass/module/_hero.scss */
+.cd-slider-nav li:first-of-type a::before {
+  background-position: 0 0;
+}
+
+/* line 615, ../sass/module/_hero.scss */
+.cd-slider-nav li.selected:first-of-type a::before {
+  background-position: 0 -24px;
+}
+
+/* line 618, ../sass/module/_hero.scss */
+.cd-slider-nav li:nth-of-type(2) a::before {
+  background-position: -24px 0;
+}
+
+/* line 621, ../sass/module/_hero.scss */
+.cd-slider-nav li.selected:nth-of-type(2) a::before {
+  background-position: -24px -24px;
+}
+
+/* line 624, ../sass/module/_hero.scss */
+.cd-slider-nav li:nth-of-type(3) a::before {
+  background-position: -48px 0;
+}
+
+/* line 627, ../sass/module/_hero.scss */
+.cd-slider-nav li.selected:nth-of-type(3) a::before {
+  background-position: -48px -24px;
+}
+
+/* line 630, ../sass/module/_hero.scss */
+.cd-slider-nav li:nth-of-type(4) a::before {
+  background-position: -72px 0;
+}
+
+/* line 633, ../sass/module/_hero.scss */
+.cd-slider-nav li.selected:nth-of-type(4) a::before {
+  background-position: -72px -24px;
+}
+
+/* line 636, ../sass/module/_hero.scss */
+.cd-slider-nav li:nth-of-type(5) a::before {
+  background-position: -96px 0;
+}
+
+/* line 639, ../sass/module/_hero.scss */
+.cd-slider-nav li.selected:nth-of-type(5) a::before {
+  background-position: -96px -24px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 643, ../sass/module/_hero.scss */
+  .cd-slider-nav {
+    height: 80px;
+  }
+
+  /* line 646, ../sass/module/_hero.scss */
+  .cd-slider-nav .cd-marker,
+  .cd-slider-nav li {
+    width: 95px;
+  }
+
+  /* line 650, ../sass/module/_hero.scss */
+  .cd-slider-nav a {
+    padding-top: 48px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
+
+  /* line 655, ../sass/module/_hero.scss */
+  .cd-slider-nav a::before {
+    top: 18px;
+  }
+}
+/* -------------------------------- 
+
+Main content
+
+-------------------------------- */
+/* line 665, ../sass/module/_hero.scss */
+.cd-main-content {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/* line 671, ../sass/module/_hero.scss */
+.cd-main-content p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  color: #999999;
+  margin: 2em 0;
+}
+
+@media only screen and (min-width: 1170px) {
+  /* line 678, ../sass/module/_hero.scss */
+  .cd-main-content {
+    padding: 3em 0;
+  }
+
+  /* line 681, ../sass/module/_hero.scss */
+  .cd-main-content p {
+    font-size: 1.6rem;
+  }
+}
+/* -------------------------------- 
+
+Javascript disabled
+
+-------------------------------- */
+/* line 691, ../sass/module/_hero.scss */
+.no-js .cd-hero-slider li {
+  display: none;
+}
+
+/* line 694, ../sass/module/_hero.scss */
+.no-js .cd-hero-slider li.selected {
+  display: block;
+}
+
+/* line 698, ../sass/module/_hero.scss */
+.no-js .cd-slider-nav {
+  display: none;
 }
 
 /* line 1, ../sass/module/_about.scss */
@@ -253,4 +1178,19 @@
     -webkit-transform: skew(0deg, 0deg);
     transform: skew(0deg, 0deg);
   }
+}
+/* line 1, ../sass/module/_course.scss */
+.course {
+  color: white;
+  background-color: #014a81;
+}
+/* line 4, ../sass/module/_course.scss */
+.course--box {
+  padding: 5px 10px;
+  transition: 0.3s ease-in-out;
+}
+/* line 8, ../sass/module/_course.scss */
+.course--box:hover {
+  cursor: pointer;
+  background-color: #003860;
 }
