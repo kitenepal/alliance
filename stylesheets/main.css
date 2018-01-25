@@ -1200,5 +1200,6 @@ Javascript disabled
 /* line 12, ../sass/module/_course.scss */
 .course--box:hover {
   cursor: pointer;
-  background-color: #003860;
+  background-color: rgba(1, 59, 102, 0.4);
+  box-shadow: 1px 1px 4px #e5ec12;
 }
