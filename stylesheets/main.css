@@ -1199,3 +1199,50 @@ Javascript disabled
   background-color: rgba(1, 59, 102, 0.4);
   box-shadow: 1px 1px 4px #2189d3;
 }
+
+/* line 1, ../sass/module/_gallery.scss */
+.gallery-title {
+  text-align: center;
+  margin: 50px;
+}
+
+/* line 6, ../sass/module/_gallery.scss */
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+}
+
+/* line 14, ../sass/module/_gallery.scss */
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px;
+}
+
+/* line 23, ../sass/module/_gallery.scss */
+.filter-button:hover {
+  color: #ffffff;
+  background-color: #42B32F;
+}
+
+/* line 28, ../sass/module/_gallery.scss */
+.btn-default:active .filter-button:active {
+  background-color: #42B32F;
+  color: white;
+}
+
+/* line 33, ../sass/module/_gallery.scss */
+.port-image {
+  width: 100%;
+}
+
+/* line 37, ../sass/module/_gallery.scss */
+.gallery_product {
+  margin-bottom: 30px;
+}
