@@ -245,6 +245,11 @@ header .header--image {
   right: auto;
 }
 
+/* line 206, ../sass/module/_navbar.scss */
+.navbar-nav > .open > a, .navbar-nav > .open > a:focus, .navbar-nav > .open > a:hover {
+  background-color: #2189d3 !important;
+}
+
 /* -------------------------------- 
 
 Primary style
@@ -1177,15 +1182,18 @@ Javascript disabled
 }
 /* line 1, ../sass/module/_course.scss */
 .course {
+  /* top, transparent red, faked with gradient */
+  background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
-  background-color: #014a81;
 }
-/* line 4, ../sass/module/_course.scss */
+/* line 8, ../sass/module/_course.scss */
 .course--box {
   padding: 5px 10px;
   transition: 0.3s ease-in-out;
 }
-/* line 8, ../sass/module/_course.scss */
+/* line 12, ../sass/module/_course.scss */
 .course--box:hover {
   cursor: pointer;
   background-color: #003860;
