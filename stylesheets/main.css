@@ -1277,14 +1277,31 @@ Javascript disabled
   color: white;
 }
 /* line 4, ../sass/module/_footer.scss */
+.footer a {
+  color: white;
+}
+/* line 7, ../sass/module/_footer.scss */
+.footer a:hover, .footer a:active, .footer a:focus {
+  color: #e5ec12;
+}
+/* line 10, ../sass/module/_footer.scss */
 .footer .icons {
   font-size: 30px;
 }
-/* line 6, ../sass/module/_footer.scss */
+/* line 12, ../sass/module/_footer.scss */
 .footer .icons i:first-child {
   margin: 0px 0px 0px 0px;
 }
-/* line 9, ../sass/module/_footer.scss */
+/* line 15, ../sass/module/_footer.scss */
 .footer .icons i {
   margin: 0px 0px 0px 8px;
+}
+/* line 19, ../sass/module/_footer.scss */
+.footer .copyright {
+  background-color: #014a81;
+  padding: 10px 0px 0px 0px;
+}
+/* line 22, ../sass/module/_footer.scss */
+.footer .copyright p {
+  text-align: center;
 }
