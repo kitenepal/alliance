@@ -1219,3 +1219,35 @@ Javascript disabled
 .gallery_product {
   margin-bottom: 30px;
 }
+
+/* line 1, ../sass/module/_latestblog.scss */
+.latestblog {
+  /* top, transparent red, faked with gradient */
+  background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+/* line 8, ../sass/module/_latestblog.scss */
+.latestblog h3 {
+  color: #e5ec12;
+}
+/* line 11, ../sass/module/_latestblog.scss */
+.latestblog a {
+  color: #e5ec12;
+}
+/* line 14, ../sass/module/_latestblog.scss */
+.latestblog a:hover, .latestblog a:focus, .latestblog a:active {
+  color: #e5ec12;
+}
+/* line 17, ../sass/module/_latestblog.scss */
+.latestblog--box {
+  padding: 5px 10px;
+  transition: 0.3s ease-in-out;
+}
+/* line 21, ../sass/module/_latestblog.scss */
+.latestblog--box:hover {
+  cursor: pointer;
+  background-color: rgba(1, 59, 102, 0.4);
+  box-shadow: 1px 1px 4px #2189d3;
+}

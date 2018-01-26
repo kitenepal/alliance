@@ -1,0 +1,26 @@
+.latestblog{
+	/* top, transparent red, faked with gradient */ 
+	background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)),
+	url('https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	h3{
+		color: $secondary-color;
+	}
+	a{
+		color: $secondary-color;	
+	}
+	a:hover, a:focus, a:active{
+		color: $secondary-color;	
+	}
+	&--box{
+		padding: 5px 10px;
+		transition: 0.3s ease-in-out;
+	}
+	&--box:hover{
+		cursor: pointer;
+		background-color: rgba(1, 59, 102, 0.4);
+		box-shadow: 1px 1px 4px $faded-primary;
+	}
+}
