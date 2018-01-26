@@ -1,18 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");
+@import url("https://fonts.googleapis.com/css?family=Abel");
 /* line 1, ../sass/base/_base.scss */
+body {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+}
+/* line 4, ../sass/base/_base.scss */
+body h3 {
+  font-family: "Abel", sans-serif;
+}
+/* line 7, ../sass/base/_base.scss */
+body p, body li, body a, body button {
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
+
+/* line 13, ../sass/base/_base.scss */
 .text__right {
   text-align: right;
 }
 
-/* line 6, ../sass/base/_base.scss */
+/* line 18, ../sass/base/_base.scss */
 .color__red {
   color: red;
 }
-/* line 9, ../sass/base/_base.scss */
+/* line 21, ../sass/base/_base.scss */
 .color__grey {
   color: #595959;
 }
 
-/* line 14, ../sass/base/_base.scss */
+/* line 26, ../sass/base/_base.scss */
 .primary-btn {
   background-color: #014a81;
   color: white;
@@ -22,10 +40,26 @@
   margin: 10px 0px;
   transition: 0.5s;
 }
-/* line 22, ../sass/base/_base.scss */
+/* line 34, ../sass/base/_base.scss */
 .primary-btn:hover {
   background-color: #003860;
   border: 2px solid #2189d3;
+}
+
+/* line 41, ../sass/base/_base.scss */
+.heading {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 45, ../sass/base/_base.scss */
+.heading--margin {
+  margin: 40px 0px;
+}
+
+/* line 50, ../sass/base/_base.scss */
+.section--padding {
+  padding-bottom: 60px;
 }
 
 /* line 5, ../sass/module/_navbar.scss */
@@ -247,6 +281,11 @@ header .header--image {
 
 /* line 206, ../sass/module/_navbar.scss */
 .navbar-nav > .open > a, .navbar-nav > .open > a:focus, .navbar-nav > .open > a:hover {
+  background-color: #2189d3 !important;
+}
+
+/* line 211, ../sass/module/_navbar.scss */
+.navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
   background-color: #2189d3 !important;
 }
 
@@ -1192,34 +1231,12 @@ Javascript disabled
   height: 45px;
 }
 
-/* line 14, ../sass/module/_gallery.scss */
-.filter-button {
-  font-size: 18px;
-  border: 1px solid #42B32F;
-  border-radius: 5px;
-  text-align: center;
-  color: #42B32F;
-  margin-bottom: 30px;
-}
-
-/* line 23, ../sass/module/_gallery.scss */
-.filter-button:hover {
-  color: #ffffff;
-  background-color: #42B32F;
-}
-
-/* line 28, ../sass/module/_gallery.scss */
-.btn-default:active .filter-button:active {
-  background-color: #42B32F;
-  color: white;
-}
-
-/* line 33, ../sass/module/_gallery.scss */
+/* line 26, ../sass/module/_gallery.scss */
 .port-image {
   width: 100%;
 }
 
-/* line 37, ../sass/module/_gallery.scss */
+/* line 30, ../sass/module/_gallery.scss */
 .gallery_product {
   margin-bottom: 30px;
 }
@@ -1263,16 +1280,14 @@ Javascript disabled
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  padding-bottom: 60px;
 }
-/* line 9, ../sass/module/_contact.scss */
+/* line 8, ../sass/module/_contact.scss */
 .contact h1 {
   margin: 40px 0px;
 }
-/* line 12, ../sass/module/_contact.scss */
+/* line 11, ../sass/module/_contact.scss */
 .contact p {
   color: #e5ec12;
-  font-size: 16px;
 }
 
 /* line 1, ../sass/module/_footer.scss */

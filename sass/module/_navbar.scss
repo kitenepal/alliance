@@ -206,3 +206,10 @@ header{
 .navbar-nav>.open>a, .navbar-nav>.open>a:focus, .navbar-nav>.open>a:hover{
   background-color: $faded-primary !important;
 }
+
+.navbar-toggle{
+  &:hover, &:active, &:focus{
+    background-color: $faded-primary !important;
+
+  }
+}

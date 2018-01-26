@@ -1,3 +1,15 @@
+body{
+	background-image: url('../img/background.jpg');
+	background-attachment: fixed;
+	h3{
+		font-family: $secondary-font;
+	}
+	p, li, a, button{
+		font-family: $secondary-font;
+		font-size: 18px;	
+	}
+}
+
 .text__right{
 	text-align: right;
 }
@@ -26,3 +38,15 @@
 }
 
 
+.heading{
+	font-family: $primary-font;
+	text-align: center;
+	text-transform: uppercase;
+	&--margin{
+		margin: 40px 0px;
+	}
+}
+
+.section--padding{
+	padding-bottom: 60px;
+}
