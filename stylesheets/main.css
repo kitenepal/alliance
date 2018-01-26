@@ -1152,6 +1152,10 @@ Javascript disabled
 .about .row {
   margin: 0;
 }
+/* line 23, ../sass/module/_about.scss */
+.about--img {
+  padding: 0 !important;
+}
 
 /* line 1, ../sass/module/_course.scss */
 .course {
