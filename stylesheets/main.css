@@ -1199,7 +1199,7 @@ Javascript disabled
 /* line 1, ../sass/module/_course.scss */
 .course {
   /* top, transparent red, faked with gradient */
-  background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background: linear-gradient(rgba(1, 56, 96, 0.9), rgba(1, 56, 96, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -1244,7 +1244,7 @@ Javascript disabled
 /* line 1, ../sass/module/_latestblog.scss */
 .latestblog {
   /* top, transparent red, faked with gradient */
-  background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background: linear-gradient(rgba(1, 56, 96, 0.9), rgba(1, 56, 96, 0.9)), url("http://fleet2trackwebsite.azurewebsites.net/wp-content/uploads/2016/06/chips_mini.jpg");
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -1276,7 +1276,7 @@ Javascript disabled
 /* line 1, ../sass/module/_contact.scss */
 .contact {
   /* top, transparent red, faked with gradient */
-  background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background: linear-gradient(rgba(1, 56, 96, 0.9), rgba(1, 56, 96, 0.9)), url("https://i0.wp.com/www.tech-coffee.net/wp-content/uploads/2017/01/cpu-images.jpg?fit=2560%2C1600&ssl=1");
   background-size: cover;
   background-attachment: fixed;
   color: white;
