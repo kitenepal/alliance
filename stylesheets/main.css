@@ -1263,13 +1263,32 @@ Javascript disabled
   background-size: cover;
   background-attachment: fixed;
   color: white;
+  padding-bottom: 60px;
 }
-/* line 8, ../sass/module/_contact.scss */
+/* line 9, ../sass/module/_contact.scss */
 .contact h1 {
   margin: 40px 0px;
 }
-/* line 11, ../sass/module/_contact.scss */
+/* line 12, ../sass/module/_contact.scss */
 .contact p {
   color: #e5ec12;
   font-size: 16px;
+}
+
+/* line 1, ../sass/module/_footer.scss */
+.footer {
+  background-color: #323232;
+  color: white;
+}
+/* line 4, ../sass/module/_footer.scss */
+.footer .icons {
+  font-size: 30px;
+}
+/* line 6, ../sass/module/_footer.scss */
+.footer .icons i:first-child {
+  margin: 0px 0px 0px 0px;
+}
+/* line 9, ../sass/module/_footer.scss */
+.footer .icons i {
+  margin: 0px 0px 0px 8px;
 }
