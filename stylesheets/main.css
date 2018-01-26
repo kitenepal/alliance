@@ -1278,3 +1278,21 @@ Javascript disabled
   background-color: rgba(1, 59, 102, 0.4);
   box-shadow: 1px 1px 4px #2189d3;
 }
+
+/* line 1, ../sass/module/_contact.scss */
+.contact {
+  /* top, transparent red, faked with gradient */
+  background: linear-gradient(rgba(1, 74, 129, 0.9), rgba(1, 74, 129, 0.9)), url("https://tctechcrunch2011.files.wordpress.com/2015/09/shutterstock_286900829.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+/* line 8, ../sass/module/_contact.scss */
+.contact h1 {
+  margin: 40px 0px;
+}
+/* line 11, ../sass/module/_contact.scss */
+.contact p {
+  color: #e5ec12;
+  font-size: 16px;
+}
