@@ -1,0 +1,39 @@
+.gallery-title {
+  text-align: center;
+  margin: 50px;
+}
+
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+}
+
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #42B32F;
+  border-radius: 5px;
+  text-align: center;
+  color: #42B32F;
+  margin-bottom: 30px;
+}
+
+.filter-button:hover {
+  color: #ffffff;
+  background-color: #42B32F;
+}
+
+.btn-default:active .filter-button:active {
+  background-color: #42B32F;
+  color: white;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
