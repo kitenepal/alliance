@@ -1,26 +1,49 @@
 .footer{
-	background-color: #323232;
+	background-color: $darkgrey;
 	color: white;
-	a{
-		color: white;
-	}
-	a:hover, a:active, a:focus{
-		color: $secondary-color;
+	&-details{
+		a{
+			color: white;
+			transition: 0.1s ease-in-out;
+		}
+		a:hover, a:active, a:focus{
+			color: $secondary-color;
+		}
 	}
 	.icons{
-		font-size: 30px;
-		i:first-child{
+		a{
+			font-size: 30px;
+		}
+		a:first-child, i:first-child{
 			margin: 0px 0px 0px 0px;
 		}
-		i{
+		a, i{
 			margin: 0px 0px 0px 8px;
 		}
 	}
 	.copyright{
-		background-color: $primary-color;
+		background-color: $dark-primary;
 		padding: 10px 0px 0px 0px ;
 		p{
 			text-align: center;
+		}
+	}
+	.fa{
+		transition: 0.3s ease-in-out;
+		&:hover{
+			cursor: pointer;
+		}
+		&-facebook-official:hover{
+			color: $fb-color;
+		}
+		&-youtube:hover{
+			color: $youtube-color;
+		}
+		&-twitter:hover{
+			color: $twitter-color;
+		}
+		&-google-plus:hover{
+			color: $googleplus-color;
 		}
 	}
 }
