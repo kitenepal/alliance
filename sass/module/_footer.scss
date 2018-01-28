@@ -1,5 +1,5 @@
 .footer{
-	background-color: #323232;
+	background-color: $darkgrey;
 	color: white;
 	a{
 		color: white;
@@ -21,6 +21,24 @@
 		padding: 10px 0px 0px 0px ;
 		p{
 			text-align: center;
+		}
+	}
+	.fa{
+		transition: 0.3s ease-in-out;
+		&:hover{
+			cursor: pointer;
+		}
+		&-facebook-official:hover{
+			color: $fb-color;
+		}
+		&-youtube:hover{
+			color: $youtube-color;
+		}
+		&-twitter:hover{
+			color: $twitter-color;
+		}
+		&-google-plus:hover{
+			color: $googleplus-color;
 		}
 	}
 }

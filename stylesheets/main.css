@@ -1294,7 +1294,7 @@ Javascript disabled
 
 /* line 1, ../sass/module/_footer.scss */
 .footer {
-  background-color: #323232;
+  background-color: #212121;
   color: white;
 }
 /* line 4, ../sass/module/_footer.scss */
@@ -1325,4 +1325,28 @@ Javascript disabled
 /* line 22, ../sass/module/_footer.scss */
 .footer .copyright p {
   text-align: center;
+}
+/* line 26, ../sass/module/_footer.scss */
+.footer .fa {
+  transition: 0.3s ease-in-out;
+}
+/* line 28, ../sass/module/_footer.scss */
+.footer .fa:hover {
+  cursor: pointer;
+}
+/* line 31, ../sass/module/_footer.scss */
+.footer .fa-facebook-official:hover {
+  color: #2778a5;
+}
+/* line 34, ../sass/module/_footer.scss */
+.footer .fa-youtube:hover {
+  color: #c93032;
+}
+/* line 37, ../sass/module/_footer.scss */
+.footer .fa-twitter:hover {
+  color: #2ea7e0;
+}
+/* line 40, ../sass/module/_footer.scss */
+.footer .fa-google-plus:hover {
+  color: #d84e34;
 }
