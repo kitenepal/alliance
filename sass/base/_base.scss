@@ -24,16 +24,18 @@ body{
 }
 
 .primary-btn{
-	background-color: $primary-color;
+	background-color: $btndark;
 	color: white;
-	border: 2px solid white;
-	border-radius: 6px;
-	padding: 5px 8px;
+	border: 0px;
+	border-radius: 0px;
+	outline: 0px;
+	padding: 5px 15px;
 	margin: 10px 0px;
-	transition: 0.5s;
+	transition: 0.3s;
 	&:hover{
-		background-color: $dark-primary;
-		border: 2px solid $faded-primary;
+		background-color: $btnprimary;
+		cursor: pointer;
+		box-shadow: 1px 1px 2px $btndark;
 	}
 }
 
