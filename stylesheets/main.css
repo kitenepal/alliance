@@ -1207,6 +1207,21 @@ Javascript disabled
   padding: 0 !important;
 }
 
+/* line 3, ../sass/module/_abtPage.scss */
+.abt-intro h3, .wtca h3, .oc h3, .pi h3 {
+  font-weight: bold;
+}
+
+/* line 9, ../sass/module/_abtPage.scss */
+.title-highltclr {
+  color: #014a81;
+}
+
+/* line 14, ../sass/module/_abtPage.scss */
+.inst-detail {
+  padding: 10px;
+}
+
 /* line 1, ../sass/module/_course.scss */
 .course {
   /* top, transparent red, faked with gradient */
