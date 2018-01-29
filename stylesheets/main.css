@@ -1412,27 +1412,36 @@ Javascript disabled
 .footer .copyright p {
   text-align: center;
 }
-/* line 31, ../sass/module/_footer.scss */
-.footer .fa {
+/* line 30, ../sass/module/_footer.scss */
+.footer .copyright a {
+  color: #e5ec12;
   transition: 0.3s ease-in-out;
 }
 /* line 33, ../sass/module/_footer.scss */
+.footer .copyright a:hover {
+  color: white;
+}
+/* line 38, ../sass/module/_footer.scss */
+.footer .fa {
+  transition: 0.3s ease-in-out;
+}
+/* line 40, ../sass/module/_footer.scss */
 .footer .fa:hover {
   cursor: pointer;
 }
-/* line 36, ../sass/module/_footer.scss */
+/* line 43, ../sass/module/_footer.scss */
 .footer .fa-facebook-official:hover {
   color: #2778a5;
 }
-/* line 39, ../sass/module/_footer.scss */
+/* line 46, ../sass/module/_footer.scss */
 .footer .fa-youtube:hover {
   color: #c93032;
 }
-/* line 42, ../sass/module/_footer.scss */
+/* line 49, ../sass/module/_footer.scss */
 .footer .fa-twitter:hover {
   color: #2ea7e0;
 }
-/* line 45, ../sass/module/_footer.scss */
+/* line 52, ../sass/module/_footer.scss */
 .footer .fa-google-plus:hover {
   color: #d84e34;
 }

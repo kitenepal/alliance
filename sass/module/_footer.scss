@@ -27,6 +27,13 @@
 		p{
 			text-align: center;
 		}
+		a{
+			color: $secondary-color;
+			transition: 0.3s ease-in-out;
+			&:hover{
+				color: white;
+			}
+		}
 	}
 	.fa{
 		transition: 0.3s ease-in-out;
