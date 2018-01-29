@@ -1207,19 +1207,59 @@ Javascript disabled
   padding: 0 !important;
 }
 
-/* line 3, ../sass/module/_abtPage.scss */
-.abt-intro h3, .wtca h3, .oc h3, .pi h3 {
+/* line 6, ../sass/module/_abtPage.scss */
+.abt-intro h3,
+.wtca h3,
+.oc h3,
+.pi h3 {
   font-weight: bold;
 }
 
-/* line 9, ../sass/module/_abtPage.scss */
+/* line 12, ../sass/module/_abtPage.scss */
 .title-highltclr {
   color: #014a81;
 }
 
-/* line 14, ../sass/module/_abtPage.scss */
+/* line 18, ../sass/module/_abtPage.scss */
+.pi .well,
+.pi .well-sm {
+  border-radius: 0px;
+}
+
+/* line 24, ../sass/module/_abtPage.scss */
 .inst-detail {
   padding: 10px;
+    /*
+    Multicoloured Hover Variations
+*/
+}
+/* line 26, ../sass/module/_abtPage.scss */
+.inst-detail .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+/* line 31, ../sass/module/_abtPage.scss */
+.inst-detail .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/* line 43, ../sass/module/_abtPage.scss */
+.inst-detail #social-fb {
+  color: #3B5998;
+}
+/* line 46, ../sass/module/_abtPage.scss */
+.inst-detail #social-tw {
+  color: #4099FF;
+}
+/* line 49, ../sass/module/_abtPage.scss */
+.inst-detail #social-in {
+  color: #0077B5;
 }
 
 /* line 1, ../sass/module/_course.scss */
