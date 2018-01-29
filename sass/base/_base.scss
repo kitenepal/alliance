@@ -70,3 +70,13 @@ body{
 .section--padding-page{
 	padding-top: 60px;
 }
+
+// title highlight color
+.title-highltclr {
+	font-weight: bold;
+	text-transform: uppercase;
+  color: $btndark;
+}
+.title-highltclr-right{
+  color: $primary-color;
+}

@@ -3,16 +3,16 @@
 @import "module/_navbar.scss";
 @import "module/_hero.scss";
 @import "module/_about.scss";
-@import "module/_abtPage.scss";
 @import "module/_course.scss";
 @import "module/_gallery.scss";
 @import "module/_latestblog.scss";
 @import "module/_services.scss";
-@import "module/_student-result.scss";
 @import "module/_contact.scss";
 @import "module/_footer.scss";
 @import "layout/_pageNav.scss";
 
 
 //Pages
+@import "module/pages/_abtPage.scss";
 @import "module/pages/services_page.scss";
+@import "module/pages/_student-result.scss";
