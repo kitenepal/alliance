@@ -315,7 +315,7 @@ Single slide style
   display: inline-block;
   padding: 1.2em 1.4em;
   margin-top: .8em;
-  background-color: rgba(212, 68, 87, 0.9);
+  background-color: $btndark;
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -333,7 +333,7 @@ Single slide style
   margin-left: 1em;
 }
 .no-touch .cd-hero-slider .cd-btn:hover {
-  background-color: #d44457;
+  background-color: $btnprimary;
 }
 .no-touch .cd-hero-slider .cd-btn.secondary:hover {
   background-color: #161a1e;
@@ -514,7 +514,7 @@ Slider navigation
   z-index: 2;
   text-align: center;
   height: 55px;
-  background-color: rgba(0, 1, 1, 0.5);
+  background-color: rgba(0, 1, 1, 0.5); //rgba(1, 59, 102, 0.4);
 }
 .cd-slider-nav nav, .cd-slider-nav ul, .cd-slider-nav li, .cd-slider-nav a {
   height: 100%;
@@ -529,7 +529,7 @@ Slider navigation
   left: 0;
   width: 60px;
   height: 100%;
-  color: #d44457;
+  color: $btndark;
   background-color: #ffffff;
   box-shadow: inset 0 2px 0 currentColor;
   -webkit-transition: -webkit-transform 0.2s, box-shadow 0.2s;
