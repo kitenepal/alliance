@@ -24,3 +24,9 @@ $(this).removeClass("active");
 $(this).addClass("active");
 
 });
+
+
+
+
+
+//MODAL 

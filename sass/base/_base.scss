@@ -14,6 +14,12 @@ body{
 	text-align: right;
 }
 
+@media only screen and (max-width: 768px) {
+	.text__right{
+		text-align: center;
+	}
+}
+
 .color{
 	&__red{
 		color: red;
@@ -59,4 +65,8 @@ body{
 
 .section--padding{
 	padding-bottom: 60px;
+}
+
+.section--padding-page{
+	padding-top: 60px;
 }

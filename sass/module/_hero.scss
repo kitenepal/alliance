@@ -307,9 +307,11 @@ Single slide style
 .cd-hero-slider h2 {
   font-size: 2.4rem;
 }
-.cd-hero-slider p {
-  font-size: 1.4rem;
+.cd-hero-slider {
+  p {
+  font-size: 1.8rem !IMPORTANT;
   line-height: 1.4;
+  }
 }
 .cd-hero-slider .cd-btn {
   display: inline-block;
