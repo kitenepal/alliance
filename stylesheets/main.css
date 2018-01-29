@@ -1459,21 +1459,26 @@ Javascript disabled
   text-align: right;
 }
 
-/* line 2, ../sass/module/pages/services_page.scss */
+/* line 4, ../sass/module/pages/services_page.scss */
 .sales ol, .repair ol {
   margin: 0px 40px;
 }
-/* line 3, ../sass/module/pages/services_page.scss */
+/* line 5, ../sass/module/pages/services_page.scss */
 .sales ol li, .repair ol li {
   list-style-type: decimal !important;
 }
-/* line 8, ../sass/module/pages/services_page.scss */
+/* line 10, ../sass/module/pages/services_page.scss */
 .sales h3, .repair h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #3ca522;
 }
-/* line 12, ../sass/module/pages/services_page.scss */
+/* line 14, ../sass/module/pages/services_page.scss */
 .sales h3 .rightext, .repair h3 .rightext {
   color: #014a81;
+}
+
+/* line 21, ../sass/module/pages/services_page.scss */
+.pagenav .rightside {
+  text-align: right;
 }

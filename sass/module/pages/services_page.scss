@@ -1,3 +1,5 @@
+@import "../../base/_variables.scss";
+
 .sales, .repair{
 	ol{
 	li{
@@ -14,4 +16,11 @@
 		}
 	}
 }
+
+.pagenav{
+	.rightside{
+		text-align: right;
+	}
+}
+
 
