@@ -1360,6 +1360,11 @@ Javascript disabled
   box-shadow: 1px 1px 4px #2189d3;
 }
 
+/* line 1, ../sass/module/_student-result.scss */
+.filter-result {
+  padding: 10px;
+}
+
 /* line 1, ../sass/module/_contact.scss */
 .contact {
   /* top, transparent red, faked with gradient */
