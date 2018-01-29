@@ -1303,13 +1303,13 @@ Javascript disabled
   transition: 0.3s ease-in-out;
 }
 
-/* line 5, ../sass/module/_gallery.scss */
+/* line 3, ../sass/module/_gallery.scss */
 .gallery-title {
   text-align: center;
   margin: 50px;
 }
 
-/* line 10, ../sass/module/_gallery.scss */
+/* line 8, ../sass/module/_gallery.scss */
 .gallery-title:after {
   content: "";
   position: absolute;
@@ -1318,12 +1318,12 @@ Javascript disabled
   height: 45px;
 }
 
-/* line 30, ../sass/module/_gallery.scss */
+/* line 22, ../sass/module/_gallery.scss */
 .port-image {
   width: 100%;
 }
 
-/* line 34, ../sass/module/_gallery.scss */
+/* line 26, ../sass/module/_gallery.scss */
 .gallery_product {
   margin-bottom: 30px;
 }

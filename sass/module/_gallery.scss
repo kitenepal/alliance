@@ -1,6 +1,4 @@
-.gallery{
-	
-}
+.gallery {}
 
 .gallery-title {
   text-align: center;
@@ -15,17 +13,11 @@
   height: 45px;
 }
 
-.filter-button {
+.filter-button {}
 
-}
+.filter-button:hover {}
 
-.filter-button:hover {
-
-}
-
-.btn-default:active .filter-button:active {
-
-}
+.btn-default:active .filter-button:active {}
 
 .port-image {
   width: 100%;
@@ -34,3 +26,6 @@
 .gallery_product {
   margin-bottom: 30px;
 }
+
+//=====================================MODAL=======================================//
+
