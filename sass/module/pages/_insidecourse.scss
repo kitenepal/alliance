@@ -1,0 +1,16 @@
+.fastlinks{
+	li{
+		border-bottom: 1px solid #8c8c8c;
+		padding: 5px 0px;
+	}
+	li:last-child{
+		border-bottom: none;
+	}
+	a{
+		color: $primary-color;
+		transition: 0.3s ease-in-out;
+	}
+	a:hover, a:active, a:focus{
+		color: $btndark;
+	}
+}

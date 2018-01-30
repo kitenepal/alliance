@@ -81,7 +81,7 @@ body p, body li, body a, body button {
 
 /* line 70, ../sass/base/_base.scss */
 .section--padding-page {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 /* line 75, ../sass/base/_base.scss */
@@ -94,6 +94,31 @@ body p, body li, body a, body button {
 /* line 80, ../sass/base/_base.scss */
 .title-highltclr-right {
   color: #014a81;
+}
+
+/* line 86, ../sass/base/_base.scss */
+.pagenav .leftside {
+  text-align: left !important;
+}
+/* line 89, ../sass/base/_base.scss */
+.pagenav .rightside {
+  text-align: right !important;
+}
+/* line 92, ../sass/base/_base.scss */
+.pagenav .page-hr {
+  border: 1px solid #014a81 !important;
+  margin: 3px 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 100, ../sass/base/_base.scss */
+  .pagenav p {
+    text-align: left !important;
+  }
+}
+/* line 106, ../sass/base/_base.scss */
+.container--paddingtop {
+  margin-top: 30px !important;
 }
 
 /* line 2, ../sass/module/_navbar.scss */
@@ -1498,6 +1523,15 @@ Javascript disabled
   text-align: right;
 }
 
+/* line 14, ../sass/layout/_pageNav.scss */
+.section--padding-page ol {
+  margin: 0px 40px;
+}
+/* line 15, ../sass/layout/_pageNav.scss */
+.section--padding-page ol li {
+  list-style-type: decimal;
+}
+
 /* line 6, ../sass/module/pages/_abtPage.scss */
 .abt-intro h3,
 .wtca h3,
@@ -1548,28 +1582,31 @@ Javascript disabled
   color: #0077B5;
 }
 
-/* line 4, ../sass/module/pages/_services_page.scss */
-.sales ol, .repair ol {
+/* line 6, ../sass/module/pages/_services_page.scss */
+.sales ol,
+.repair ol,
+.section--padding-page ol {
   margin: 0px 40px;
 }
-/* line 5, ../sass/module/pages/_services_page.scss */
-.sales ol li, .repair ol li {
+/* line 7, ../sass/module/pages/_services_page.scss */
+.sales ol li,
+.repair ol li,
+.section--padding-page ol li {
   list-style-type: decimal !important;
 }
-/* line 10, ../sass/module/pages/_services_page.scss */
-.sales h3, .repair h3 {
+/* line 12, ../sass/module/pages/_services_page.scss */
+.sales h3,
+.repair h3,
+.section--padding-page h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #3ca522;
 }
-/* line 14, ../sass/module/pages/_services_page.scss */
-.sales h3 .rightext, .repair h3 .rightext {
+/* line 16, ../sass/module/pages/_services_page.scss */
+.sales h3 .rightext,
+.repair h3 .rightext,
+.section--padding-page h3 .rightext {
   color: #014a81;
-}
-
-/* line 21, ../sass/module/pages/_services_page.scss */
-.pagenav .rightside {
-  text-align: right;
 }
 
 /* line 1, ../sass/module/pages/_student-result.scss */
@@ -1609,5 +1646,23 @@ Javascript disabled
 /* line 5, ../sass/module/pages/_singleblog.scss */
 hr {
   margin: 0px;
-  border: 2px solid #014a81 !important;
+}
+
+/* line 2, ../sass/module/pages/_insidecourse.scss */
+.fastlinks li {
+  border-bottom: 1px solid #8c8c8c;
+  padding: 5px 0px;
+}
+/* line 6, ../sass/module/pages/_insidecourse.scss */
+.fastlinks li:last-child {
+  border-bottom: none;
+}
+/* line 9, ../sass/module/pages/_insidecourse.scss */
+.fastlinks a {
+  color: #014a81;
+  transition: 0.3s ease-in-out;
+}
+/* line 13, ../sass/module/pages/_insidecourse.scss */
+.fastlinks a:hover, .fastlinks a:active, .fastlinks a:focus {
+  color: #3ca522;
 }

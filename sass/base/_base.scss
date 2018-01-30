@@ -68,7 +68,7 @@ body{
 }
 
 .section--padding-page{
-	padding-top: 60px;
+	padding-top: 40px;
 }
 
 // title highlight color
@@ -79,4 +79,30 @@ body{
 }
 .title-highltclr-right{
   color: $primary-color;
+}
+
+//Page navigation head
+.pagenav {
+	.leftside{
+		text-align: left !important;
+	}
+  .rightside {
+    text-align: right !important;
+  }
+  .page-hr{
+  	border: 1px solid $primary-color !important; 
+  	margin: 3px 0px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.pagenav {
+	  	p{
+	  		text-align: left !important;
+	  	}
+	}
+}
+
+.container--paddingtop{
+	margin-top: 30px !important;
 }
