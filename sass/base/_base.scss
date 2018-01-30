@@ -4,6 +4,10 @@ body{
 	h3{
 		font-family: $secondary-font;
 	}
+	h4{
+		font-family: $secondary-font;
+		color: $primary-color;	
+	}
 	p, li, a, button{
 		font-family: $secondary-font;
 		font-size: 18px;	
@@ -105,4 +109,8 @@ body{
 
 .container--paddingtop{
 	margin-top: 30px !important;
+}
+
+.nepali{
+	font-family: $nepali-font;
 }
