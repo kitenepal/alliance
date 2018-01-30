@@ -1403,6 +1403,80 @@ Javascript disabled
   color: #d84e34;
 }
 
+/* line 59, ../sass/module/_footer.scss */
+.back-to-top {
+  position: fixed;
+  right: 1%;
+  bottom: -7.5%;
+  height: 15px;
+  width: 40px;
+  padding: 3px 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: transparent;
+  opacity: 0.5;
+  z-index: 3;
+  visibility: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  background-color: #3ca522;
+  outline: 0;
+}
+/* line 78, ../sass/module/_footer.scss */
+.back-to-top:hover, .back-to-top:focus {
+  opacity: 1;
+  text-decoration: none;
+  outline: 0;
+}
+/* line 85, ../sass/module/_footer.scss */
+.back-to-top:focus {
+  outline: thin dotted;
+  outline: 0;
+}
+
+/* line 91, ../sass/module/_footer.scss */
+.back-to-top::before,
+.back-to-top::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top: 0;
+  outline: 0;
+}
+
+/* line 103, ../sass/module/_footer.scss */
+.back-to-top::before {
+  top: -20px;
+  z-index: 4;
+  border-bottom: 20px solid #3ca522;
+}
+
+/* line 109, ../sass/module/_footer.scss */
+.back-to-top::after {
+  bottom: 0;
+  z-index: 5;
+  border-bottom: 20px solid #2c8715;
+}
+
+/* line 115, ../sass/module/_footer.scss */
+.back-to-top:hover,
+.back-to-top:focus {
+  height: 40px;
+  color: #212223;
+}
+
+/* line 121, ../sass/module/_footer.scss */
+.show-back-to-top {
+  display: block;
+  bottom: 1.25%;
+  visibility: visible;
+}
+
 /* line 2, ../sass/layout/_pageNav.scss */
 .pagenav h3, .pagenav p {
   margin: 5px 0px;
@@ -1466,7 +1540,7 @@ Javascript disabled
   color: #0077B5;
 }
 
-/* line 2, ../sass/module/pages/services_page.scss */
+/* line 4, ../sass/module/pages/services_page.scss */
 .sales ol, .repair ol {
   margin: 0px 40px;
 }
@@ -1483,6 +1557,11 @@ Javascript disabled
 /* line 14, ../sass/module/pages/services_page.scss */
 .sales h3 .rightext, .repair h3 .rightext {
   color: #014a81;
+}
+
+/* line 21, ../sass/module/pages/services_page.scss */
+.pagenav .rightside {
+  text-align: right;
 }
 
 /* line 1, ../sass/module/pages/_student-result.scss */
@@ -1512,8 +1591,4 @@ Javascript disabled
   -moz-box-shadow: inset 0 0 2px #003860;
   -webkit-box-shadow: inset 0 0 2px #003860;
   box-shadow: inset 0 0 2px #003860;
-
-/* line 21, ../sass/module/pages/services_page.scss */
-.pagenav .rightside {
-  text-align: right;
 }
