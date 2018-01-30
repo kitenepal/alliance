@@ -1548,26 +1548,26 @@ Javascript disabled
   color: #0077B5;
 }
 
-/* line 4, ../sass/module/pages/services_page.scss */
+/* line 4, ../sass/module/pages/_services_page.scss */
 .sales ol, .repair ol {
   margin: 0px 40px;
 }
-/* line 5, ../sass/module/pages/services_page.scss */
+/* line 5, ../sass/module/pages/_services_page.scss */
 .sales ol li, .repair ol li {
   list-style-type: decimal !important;
 }
-/* line 10, ../sass/module/pages/services_page.scss */
+/* line 10, ../sass/module/pages/_services_page.scss */
 .sales h3, .repair h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #3ca522;
 }
-/* line 14, ../sass/module/pages/services_page.scss */
+/* line 14, ../sass/module/pages/_services_page.scss */
 .sales h3 .rightext, .repair h3 .rightext {
   color: #014a81;
 }
 
-/* line 21, ../sass/module/pages/services_page.scss */
+/* line 21, ../sass/module/pages/_services_page.scss */
 .pagenav .rightside {
   text-align: right;
 }
@@ -1599,4 +1599,15 @@ Javascript disabled
   -moz-box-shadow: inset 0 0 2px #003860;
   -webkit-box-shadow: inset 0 0 2px #003860;
   box-shadow: inset 0 0 2px #003860;
+}
+
+/* line 1, ../sass/module/pages/_singleblog.scss */
+.h3--nomargin {
+  margin: 1px 0px;
+}
+
+/* line 5, ../sass/module/pages/_singleblog.scss */
+hr {
+  margin: 0px;
+  border: 2px solid #014a81 !important;
 }
