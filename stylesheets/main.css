@@ -510,6 +510,11 @@ img {
 }
 
 /* line 116, ../sass/module/_hero.scss */
+.carousel-indicators {
+  z-index: 5 !important;
+}
+
+/* line 120, ../sass/module/_hero.scss */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -517,18 +522,18 @@ img {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #FFA726 !important;
+  background-color: #3ca522 !important;
   background-color: transparent;
-  border: 1px solid #0B192D !important;
+  border: 1px solid white !important;
   border-radius: 0px !important;
 }
 
-/* line 129, ../sass/module/_hero.scss */
+/* line 133, ../sass/module/_hero.scss */
 .carousel-indicators .active {
   width: 12px;
   height: 15px !important;
   margin: 0;
-  background-color: #0B192D !important;
+  background-color: #3ca522 !important;
 }
 
 /*END SLIDER CSS  */
