@@ -6,6 +6,7 @@
   <link rel="icon" href="img/logo.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
@@ -30,130 +31,148 @@
       </div>
     </div>
     <!-- Navbar -->
-    <div class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+    <nav id="nav">
+      <div class="navbar navbar-default navbar-static" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse">
+              <!-- Left nav -->
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
+                <li><a href="#">Courses<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
+                    <li><a href="pages/mod-2.html">Partition/Format and Windows Installation</a></li>
+                    <li><a href="pages/mod-3.html">Windows Settings and Security</a></li>
+                    <li><a href="pages/mod-4.html">Software and Utilities</a></li>
+                    <li><a href="pages/mod-5.html">Internet Concept/Networking/Troubleshooting</a></li>
+                    <li><a href="pages/mod-6.html">Chip Level Practice with Testing & Repairing Tools</a></li>
+                    <li><a href="pages/mod-7.html">Circuit Tracing and Repairing of Motherboard</a></li>
+                    <li><a href="pages/mod-8.html">Laptop Hardware Concept</a></li>
+                    <li><a href="pages/mod-9.html">Circuit Tracing and Repairing of Laptop</a></li>
+                  </ul>
+                </li>
+                <li><a href="pages/gallery.html">Gallery</a></li>
+                <li><a href="pages/blog.html">Latest Blogs</a></li>
+                <li><a href="">Services<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="pages/repair.html">Repair</a></li>
+                    <li><a href="pages/sales.html">Sales</a></li>
+                  </ul>
+                </li>
+                <li><a href="pages/student-result.html">Student Results</a></li>
+                <li><a href="#">Successful Students</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="navbar-collapse collapse">
-            <!-- Left nav -->
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="pages/about.html">About Us</a></li>
-              <li><a href="#">Courses<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
-                  <li><a href="pages/mod-2.html">Partition/Format and Windows Installation</a></li>
-                  <li><a href="pages/mod-3.html">Windows Settings and Security</a></li>
-                  <li><a href="pages/mod-4.html">Software and Utilities</a></li>
-                  <li><a href="pages/mod-5.html">Internet Concept/Networking/Troubleshooting</a></li>
-                  <li><a href="pages/mod-6.html">Chip Level Practice with Testing & Repairing Tools</a></li>
-                  <li><a href="pages/mod-7.html">Circuit Tracing and Repairing of Motherboard</a></li>
-                  <li><a href="pages/mod-8.html">Laptop Hardware Concept</a></li>
-                  <li><a href="pages/mod-9.html">Circuit Tracing and Repairing of Laptop</a></li>
-                </ul>
-              </li>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/blog.html">Latest Blogs</a></li>
-              <li><a href="">Services<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="pages/repair.html">Repair</a></li>
-                  <li><a href="pages/sales.html">Sales</a></li>
-                </ul>
-              </li>
-              <li><a href="pages/student-result.html">Student Results</a></li>
-              <li><a href="#">Successful Students</a></li>
-              <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <!-- .cd-slider-nav -->
-          </section>
-          <!-- .cd-hero -->
-          <!--/.nav-collapse -->
         </div>
       </div>
-    </div>
+    </nav>
+    <script>
+    $('#nav').affix({
+      offset: {
+        top: $('header').height()
+      }
+    });
+
+    $('#sidebar').affix({
+      offset: {
+        top: 200
+      }
+    });
+    </script>
   </header>
   <!-- End of header and navbar -->
   <!--Start of hero image slider -->
-  <section class="cd-hero">
-    <ul class="cd-hero-slider autoplay">
-      <li class="selected">
-        <div class="cd-full-width">
-          <h2>100% Satisfaction</h2>
-          <p>Computer &amp; Laptop Repair Expert</p>
-          <a href="http://codyhouse.co/?p=675" class="cd-btn">Article &amp; Download</a>
+  <section id="slider" class="hero hero--slider">
+    <div class="overlay_background">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="slider_item1 slider_bg_1">
+              <div class="overlay_background">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="description wow  fadeInUp" data-slide="2" style="top: 206.389px;">
+                        <div class="title">
+                          <p>Introducing our brand</p>
+                          <h1>Successful <span class="break">Students</span></h1>
+                        </div>
+                        <div>
+                          <button type="button" class="primary-btn">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="slider_item1 slider_bg_2">
+              <div class="overlay_background">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="description wow fadeInUp" data-slide="2" style="top: 206.389px;">
+                        <div class="title">
+                          <p>Introducing our brand</p>
+                          <h1>100%<span class="break">Gauranteed</span></h1>
+                        </div>
+                        <div>
+                          <button type="button" class="primary-btn">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="slider_item1 slider_bg_3">
+              <div class="overlay_background">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="description wow fadeInUp" data-slide="2" style="top: 206.389px;">
+                        <div class="title">
+                          <p>Introducing our brand</p>
+                          <h1>Trusted <span class="break">Company</span></h1>
+                        </div>
+                        <div>
+                          <button type="button" class="primary-btn">Call Now</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- .cd-full-width -->
-      </li>
-      <li>
-        <div class="cd-half-width">
-          <h2>Slide title here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-          <a href="#0" class="cd-btn">Start</a>
-          <a href="#0" class="cd-btn secondary">Learn More</a>
-        </div>
-        <!-- .cd-half-width -->
-        <div class="cd-half-width cd-img-container">
-          <img src="assets/tech-1.jpg" alt="tech 1">
-        </div>
-        <!-- .cd-half-width.cd-img-container -->
-      </li>
-      <li>
-        <div class="cd-half-width cd-img-container">
-          <img src="assets/tech-2.jpg" alt="tech 2">
-        </div>
-        <!-- .cd-half-width.cd-img-container -->
-        <div class="cd-half-width">
-          <h2>Slide title here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-          <a href="#0" class="cd-btn">Start</a>
-          <a href="#0" class="cd-btn secondary">Learn More</a>
-        </div>
-        <!-- .cd-half-width -->
-      </li>
-      <li class="cd-bg-video">
-        <div class="cd-full-width">
-          <h2>Slide title here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-          <a href="#0" class="cd-btn">Learn more</a>
-        </div>
-        <!-- .cd-full-width -->
-        <div class="cd-bg-video-wrapper" data-video="assets/video/video">
-          <!-- video element will be loaded using jQuery -->
-        </div>
-        <!-- .cd-bg-video-wrapper -->
-      </li>
-      <li>
-        <div class="cd-full-width">
-          <h2>Slide title here</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-          <a href="#0" class="cd-btn">Start</a>
-          <a href="#0" class="cd-btn secondary">Learn More</a>
-        </div>
-        <!-- .cd-full-width -->
-      </li>
-    </ul>
-    <!-- .cd-hero-slider -->
-    <div class="cd-slider-nav">
-      <nav>
-        <span class="cd-marker item-1"></span>
-        <ul>
-          <li class="selected"><a href="#0">Intro</a></li>
-          <li><a href="#0">Tech 1</a></li>
-          <li><a href="#0">Tech 2</a></li>
-          <li><a href="#0">Video</a></li>
-          <li><a href="#0">Image</a></li>
-        </ul>
-      </nav>
+        <!-- Controls -->
+      </div>
     </div>
-    <!-- .cd-slider-nav -->
+    <script src="js/main.js"></script>
   </section>
   <!-- End of hero image slider -->
   <!-- About us -->
@@ -164,7 +183,9 @@
         <p>Today the world is running under the technology. Without technological knowledge, our daily activities are being difficult. The whole world is captured by technology. Whether it is most developed country or least developed country, the impact of technology is seen everywhere.</p>
         <p>
           In Nepal, there is a great impact of technology. The youth people have their bright future in the field of technology because India and China are the technologically developed countries. To be a professional technological manpower, knowledge about it is must. Without knowledge, every field is blank and little knowledge is most dangerous. So, to gain complete knowledge about the technological field i.e., computer, networking devices, server handling and so on, a perfect training center should be chosen.</p>
-        <a href="pages/about.html"><button class="primary-btn btn-tranform">Read More</button></a>
+        <a href="pages/about.html">
+          <button class="primary-btn btn-tranform">Read More</button>
+        </a>
       </div>
       <div class="col-md-6 about--img">
         <img src="img/abt.jpg">
@@ -228,12 +249,12 @@
             <h3>Mobile</h3>
             <ul>
               <li>History of Mobile Phone</li>
-              <li>GSM & CDMA Structure & Generation of Mobile Phone</li>
-              <li>Frequency & Channels</li>
-              <li>Wi-Fi, SIM, & IMEI</li>
-              <li>Mobile Phone Assembly & Disassembly</li>
+              <li>GSM &amp; CDMA Structure &amp; Generation of Mobile Phone</li>
+              <li>Frequency &amp; Channels</li>
+              <li>Wi-Fi, SIM, &amp; IMEI</li>
+              <li>Mobile Phone Assembly &amp; Disassembly</li>
               <li>Electronic Components Overview</li>
-              <li>Chip Level Soldering & De-soldering</li>
+              <li>Chip Level Soldering &amp; De-soldering</li>
             </ul>
           </div>
         </div>
@@ -296,7 +317,9 @@
       </div>
     </div>
     <center>
-      <a href="pages/gallery.html"><button class="primary-btn">Read More</button></a>
+      <a href="pages/gallery.html">
+        <button class="primary-btn">Read More</button>
+      </a>
     </center>
   </section>
   <!-- End of gallery -->
@@ -328,7 +351,9 @@
       </div>
     </div>
     <center>
-      <a href="pages/blog.html"><button class="primary-btn">Read More</button></a>
+      <a href="pages/blog.html">
+        <button class="primary-btn">Read More</button>
+      </a>
     </center>
   </section>
   <!-- End of latest blog -->
@@ -350,7 +375,9 @@
             <li>All branded laptop parts available original and copy</li>
             Ex. Battery, screen, charger, motherboard and many more</li>
           </ul>
-          <a href="pages/repair.html"><button class="primary-btn">View More</button></a>
+          <a href="pages/repair.html">
+            <button class="primary-btn">View More</button>
+          </a>
         </div>
         <div class="col-md-6">
           <h3><b>Sales</b></h3>
@@ -365,7 +392,9 @@
             <li>All branded laptop parts available original and copy</li>
             <li>Ex. Battery, screen, charger, motherboard and many more</li>
           </ul>
-          <a href="pages/sales.html"><button class="primary-btn">View More</button></a>
+          <a href="pages/sales.html">
+            <button class="primary-btn">View More</button>
+          </a>
         </div>
       </div>
     </div>
@@ -423,9 +452,9 @@
           <div class="footer-details">
             <h3>Contact info</h3>
             <p>
-              Putalisadak, Kathmandu Phone: 01-4168211, 9851174406, 9841030824 
+              Putalisadak, Kathmandu Phone: 01-4168211, 9851174406, 9841030824
               <br>Fax:
-              <br> Email: alliancelaptop@gmail.com 
+              <br> Email: alliancelaptop@gmail.com
               <br>Website: http://www.alliancelaptoptraining.com.np
             </p>
           </div>
@@ -454,14 +483,11 @@
     </div>
   </footer>
   <!-- End of footer -->
-
   <!-- Goto top -->
-  <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ><i></i></a>
+  <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket"><i></i></a>
   <!-- End -->
-  
-  <script src="js/gotop.js"></script>
+  <script src = "js/gotop.js"></script>
   <script src="js/jquery-2.1.1.js"></script>
-  <script src="js/main.js"></script>
   <!-- Resource jQuery -->
   <script src="js/navbar.js"></script>
   <script src="js/gallery.js"></script>
