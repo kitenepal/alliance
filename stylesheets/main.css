@@ -23,26 +23,31 @@ body p, body li, body a, body button {
 }
 
 /* line 17, ../sass/base/_base.scss */
+body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 4000ms;
+}
+
+/* line 21, ../sass/base/_base.scss */
 .text__right {
   text-align: right;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 22, ../sass/base/_base.scss */
+  /* line 26, ../sass/base/_base.scss */
   .text__right {
     text-align: center;
   }
 }
-/* line 28, ../sass/base/_base.scss */
+/* line 32, ../sass/base/_base.scss */
 .color__red {
   color: red;
 }
-/* line 31, ../sass/base/_base.scss */
+/* line 35, ../sass/base/_base.scss */
 .color__grey {
   color: #595959;
 }
 
-/* line 36, ../sass/base/_base.scss */
+/* line 40, ../sass/base/_base.scss */
 .primary-btn {
   background-color: #3ca522;
   color: white;
@@ -54,14 +59,14 @@ body p, body li, body a, body button {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
 }
-/* line 46, ../sass/base/_base.scss */
+/* line 50, ../sass/base/_base.scss */
 .primary-btn:hover {
   background-color: #2c8715;
   cursor: pointer;
   box-shadow: 0px 4px 5px rgba(17, 17, 17, 0.4);
   transform: translateY(-7px);
 }
-/* line 52, ../sass/base/_base.scss */
+/* line 56, ../sass/base/_base.scss */
 .primary-btn:active {
   border-radius: 0px;
   -moz-box-shadow: inset 0 0 2px #003860;
@@ -69,65 +74,65 @@ body p, body li, body a, body button {
   box-shadow: inset 0 0 2px #003860;
 }
 
-/* line 61, ../sass/base/_base.scss */
+/* line 65, ../sass/base/_base.scss */
 .heading {
   font-family: "Anton", sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 65, ../sass/base/_base.scss */
+/* line 69, ../sass/base/_base.scss */
 .heading--margin {
   margin: 40px 0px;
 }
 
-/* line 70, ../sass/base/_base.scss */
+/* line 74, ../sass/base/_base.scss */
 .section--padding {
   padding-bottom: 60px;
 }
 
-/* line 74, ../sass/base/_base.scss */
+/* line 78, ../sass/base/_base.scss */
 .section--padding-page {
   padding-top: 40px;
 }
 
-/* line 79, ../sass/base/_base.scss */
+/* line 83, ../sass/base/_base.scss */
 .title-highltclr {
   font-weight: bold;
   text-transform: uppercase;
   color: #3ca522;
 }
 
-/* line 84, ../sass/base/_base.scss */
+/* line 88, ../sass/base/_base.scss */
 .title-highltclr-right {
   color: #014a81;
 }
 
-/* line 90, ../sass/base/_base.scss */
+/* line 94, ../sass/base/_base.scss */
 .pagenav .leftside {
   text-align: left !important;
 }
-/* line 93, ../sass/base/_base.scss */
+/* line 97, ../sass/base/_base.scss */
 .pagenav .rightside {
   text-align: right !important;
 }
-/* line 96, ../sass/base/_base.scss */
+/* line 100, ../sass/base/_base.scss */
 .pagenav .page-hr {
   border: 1px solid #a0a0a0 !important;
   margin: 3px 0px !important;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 104, ../sass/base/_base.scss */
+  /* line 108, ../sass/base/_base.scss */
   .pagenav p {
     text-align: left !important;
   }
 }
-/* line 110, ../sass/base/_base.scss */
+/* line 114, ../sass/base/_base.scss */
 .container--paddingtop {
   margin-top: 30px !important;
 }
 
-/* line 114, ../sass/base/_base.scss */
+/* line 118, ../sass/base/_base.scss */
 .nepali {
   font-family: "Biryani", sans-serif;
 }

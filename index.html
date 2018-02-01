@@ -432,7 +432,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div  data-aos="fade-up" class="footer-details">
+            <div class="footer-details">
               <h3>About Alliance</h3>
               <p>
                 We have a broad vision to make technological manpower. IT knowledge is most important for the youth people mostly. They are the future of any country. To challenge the world in the field of technology and to develop the country, youths are the backbone. Serving to the youths is ultimately serving to the country also. So, trainings are provided here to whom, who are interested in this field in a most reasonable prices. <a href="pages/about.html">[ Read More ]</a>
@@ -440,7 +440,7 @@
             </div>
           </div>
           <div class="col-md-2">
-            <div  data-aos="fade-up" class="footer-details">
+            <div class="footer-details">
               <h3>Site Map</h3>
               <ul>
                 <li><a href="index.html">Home</a></li>
@@ -456,7 +456,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div  data-aos="fade-up" class="footer-details">
+            <div class="footer-details">
               <h3>Courses</h3>
               <ul>
                 <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
@@ -472,7 +472,7 @@
             </div>
           </div>  
           <div class="col-md-2">
-            <div  data-aos="fade-up" class="footer-details">
+            <div class="footer-details">
               <h3>Contact info</h3>
               <p>
                 Putalisadak, Kathmandu
@@ -480,7 +480,7 @@
                 <br> alliancelaptop@gmail.com
               </p>
             </div>
-            <div  data-aos="fade-up" class="footer-details">
+            <div class="footer-details">
               <h3>Connect with us</h3>
               <div class="icons">
                 <a href="http://facebook.com/alliance.laptop"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
@@ -517,17 +517,14 @@
   <script>
   baguetteBox.run('.tz');
   </script>
-
   <script>
+    AOS.refresh();
     AOS.init({
       offset: 0,
-      duration: 600,
-      easing: 'ease-in-sine',
-      delay: 50,
-    });
-
-    AOS.init({
-      disable: 'mobile'
+      duration: 1200,
+      easing: 'ease-in-out-back',
+      startEvent: 'load',
+      disable: window.innerWidth < 600
     });
   </script>
 </body>
