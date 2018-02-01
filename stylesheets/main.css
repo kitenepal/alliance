@@ -388,7 +388,7 @@ img {
 /* line 14, ../sass/module/_hero.scss */
 .slider_item1 {
   min-height: 300px;
-  max-height: 530px;
+  max-height: 495px;
 }
 
 /* line 19, ../sass/module/_hero.scss */
@@ -414,7 +414,7 @@ img {
 
 /* line 37, ../sass/module/_hero.scss */
 .overlay_background {
-  height: 530px;
+  height: 495px;
   width: 100%;
   background: rgba(11, 25, 45, 0.4);
 }
