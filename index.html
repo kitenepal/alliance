@@ -12,27 +12,25 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
   <!-- For scroll animation -->
-   <link rel="stylesheet" href="stylesheets/aos.css"/>
-   <script src="js/aos.js"></script>
+  <link rel="stylesheet" href="stylesheets/aos.css" />
   <!-- End of scroll animation links -->
 </head>
 
 <body>
-<!-- Share button facebook -->
+  <!-- Share button facebook -->
   <div id="fb-root"></div>
-  <script>(function(d, s, id) {
+  <script>
+  (function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
+    js = d.createElement(s);
+    js.id = id;
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1";
     fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-<!-- Share button End -->
-
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Share button End -->
   <!--header and navbar -->
   <header>
     <div class="container">
@@ -123,7 +121,9 @@
                             <h1>Successful <span class="break">Students</span></h1>
                           </div>
                           <div>
-                            <a href="pages/successfulstundets.html"><button type="button" class="primary-btn">Read more</button></a>
+                            <a href="pages/successfulstundets.html">
+                              <button type="button" class="primary-btn">Read more</button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -144,7 +144,9 @@
                             <h1>100%<span class="break">Satisfaction</span></h1>
                           </div>
                           <div>
-                            <a href="pages/sales.html"><button type="button" class="primary-btn">Read more</button></a>
+                            <a href="pages/sales.html">
+                              <button type="button" class="primary-btn">Read more</button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -165,7 +167,9 @@
                             <h1>Trusted <span class="break">Company</span></h1>
                           </div>
                           <div>
-                            <a href="pages/about.html"><button type="button" class="primary-btn">Read More</button></a>
+                            <a href="pages/about.html">
+                              <button type="button" class="primary-btn">Read More</button>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -178,332 +182,338 @@
           <!-- Controls -->
         </div>
       </div>
-      <script src="js/main.js"></script>
     </section>
     <!-- End of hero image slider -->
+  </div>
+  <!-- About us -->
+  <section class="about">
+    <div class="row">
+      <div data-aos="fade-up" data-aos-once="true" class="col-md-6">
+        <h1 class="heading">About us</h1>
+        <p>Today the world is running under the technology. Without technological knowledge, our daily activities are being difficult. The whole world is captured by technology. Whether it is most developed country or least developed country, the impact of technology is seen everywhere.</p>
+        <p>
+          In Nepal, there is a great impact of technology. The youth people have their bright future in the field of technology because India and China are the technologically developed countries. To be a professional technological manpower, knowledge about it is must. Without knowledge, every field is blank and little knowledge is most dangerous. So, to gain complete knowledge about the technological field i.e., computer, networking devices, server handling and so on, a perfect training center should be chosen.</p>
+        <a href="pages/about.html">
+          <button class="primary-btn btn-tranform">Read More</button>
+        </a>
       </div>
-    <!-- About us -->
-    <section class="about">
+      <div data-aos="fade-up" data-aos-once="true" class="col-md-6 about--img">
+        <img src="img/abt.jpg">
+      </div>
+    </div>
+  </section>
+  <!-- End of About Us -->
+  <!-- Start of course -->
+  <section class="courses section--padding course course--overlay">
+    <div class="container">
       <div class="row">
-        <div data-aos="fade-up" class="col-md-6">
-          <h1 class="heading">About us</h1>
-          <p>Today the world is running under the technology. Without technological knowledge, our daily activities are being difficult. The whole world is captured by technology. Whether it is most developed country or least developed country, the impact of technology is seen everywhere.</p>
-          <p>
-            In Nepal, there is a great impact of technology. The youth people have their bright future in the field of technology because India and China are the technologically developed countries. To be a professional technological manpower, knowledge about it is must. Without knowledge, every field is blank and little knowledge is most dangerous. So, to gain complete knowledge about the technological field i.e., computer, networking devices, server handling and so on, a perfect training center should be chosen.</p>
-          <a href="pages/about.html">
-            <button class="primary-btn btn-tranform">Read More</button>
-          </a>
-        </div>
-        <div data-aos="fade-up" class="col-md-6 about--img">
-          <img src="img/abt.jpg">
-        </div>
-      </div>
-    </section>
-    <!-- End of About Us -->
-    <!-- Start of course -->
-    <section class="courses section--padding course course--overlay">
-      <div class="container">
-        <div class="row">
-          <h1 class="heading heading--margin">Courses</h1>
-          <div data-aos="fade-up" class="col-md-4">
-            <div class="course--box">
-              <h3>Computer Hardware Technology</h3>
-              <ul>
-                <li>Computer Hardware Overview, Block Diagram Details, Parts of Computer. </li>
-                <li>Motherboard: Types, Block Diagram, Identification of Ports, Chip, Slots, Connector, Section etc, Company, Price, Marketing Tips. </li>
-                <li>CPU: CPU Socket details, Types of CPU, Identification, Basic Terminology of CPU. </li>
-                <li>RAM: Types of RAM, Identification of RAM, RAM Operating Voltage. [More] </li>
-              </ul>
-              <a href="pages/mod-1.html"><button class="primary-btn">More Details</button></a>
-            </div>
+        <h1 class="heading heading--margin">Courses</h1>
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-4">
+          <div class="course--box">
+            <h3>Computer Hardware Technology</h3>
+            <ul>
+              <li>Computer Hardware Overview, Block Diagram Details, Parts of Computer. </li>
+              <li>Motherboard: Types, Block Diagram, Identification of Ports, Chip, Slots, Connector, Section etc, Company, Price, Marketing Tips. </li>
+              <li>CPU: CPU Socket details, Types of CPU, Identification, Basic Terminology of CPU. </li>
+              <li>RAM: Types of RAM, Identification of RAM, RAM Operating Voltage. [More] </li>
+            </ul>
+            <a href="pages/mod-1.html">
+              <button class="primary-btn">More Details</button>
+            </a>
           </div>
-          <div data-aos="fade-up" class="col-md-4">
-            <div class="course--box">
-              <h3>Partition/Format and Windows Installation</h3>
-              <ul>
-                <li>Partition Concept, Types of Partition, Format Concept, Types of Format. </li>
-                <li>F-disk </li>
-                <li>Disk Manager (DM) </li>
-                <li>Windows XP Installation </li>
-                <li>Server 2003 Installation </li>
-                <li>Win -7 Installation </li>
-                <li>Win – Vista Installation [More]</li>
-              </ul>
-              <a href="pages/mod-2.html"><button class="primary-btn">More Details</button></a>
-            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-4">
+          <div class="course--box">
+            <h3>Partition/Format and Windows Installation</h3>
+            <ul>
+              <li>Partition Concept, Types of Partition, Format Concept, Types of Format. </li>
+              <li>F-disk </li>
+              <li>Disk Manager (DM) </li>
+              <li>Windows XP Installation </li>
+              <li>Server 2003 Installation </li>
+              <li>Win -7 Installation </li>
+              <li>Win – Vista Installation [More]</li>
+            </ul>
+            <a href="pages/mod-2.html">
+              <button class="primary-btn">More Details</button>
+            </a>
           </div>
-          <div data-aos="fade-up" class="col-md-4">
-            <div class="course--box">
-              <h3>Windows Settings and Security</h3>
-              <ul>
-                <li>Windows Overview. </li>
-                <li>Identification of Windows. </li>
-                <li>Shortcut Keys </li>
-                <li>Shortcut Command </li>
-                <li>Control Panel. </li>
-                <li>System Properties </li>
-                <li>Computer Management. </li>
-                <li>Password Breaker. </li>
-                <li>How to Genuine Windows. [More]</li>
-              </ul>
-              <a href="pages/mod-3.html"><button class="primary-btn">More Details</button></a>
-            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-4">
+          <div class="course--box">
+            <h3>Windows Settings and Security</h3>
+            <ul>
+              <li>Windows Overview. </li>
+              <li>Identification of Windows. </li>
+              <li>Shortcut Keys </li>
+              <li>Shortcut Command </li>
+              <li>Control Panel. </li>
+              <li>System Properties </li>
+              <li>Computer Management. </li>
+              <li>Password Breaker. </li>
+              <li>How to Genuine Windows. [More]</li>
+            </ul>
+            <a href="pages/mod-3.html">
+              <button class="primary-btn">More Details</button>
+            </a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End of course -->
-    <!-- Gallery start -->
-    <section class="section--padding">
-      <div class="container">
-        <div class="row">
-          <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="heading heading--margin">Gallery</h1>
+    </div>
+  </section>
+  <!-- End of course -->
+  <!-- Gallery start -->
+  <section class="section--padding">
+    <div class="container">
+      <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="heading heading--margin">Gallery</h1>
+        </div>
+        <div align="center">
+          <button class="primary-btn filter-button" data-filter="all">All</button>
+          <button class="primary-btn filter-button" data-filter="images">Images</button>
+          <button class="primary-btn filter-button" data-filter="videos">Videos</button>
+        </div>
+        <br/>
+        <div class="tz">
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
+            <a href="#" data-toggle="modal" data-target="#9">
+              <iframe width="100%" src="https://www.youtube.com/embed/4rtEDHByTzU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </a>
           </div>
-          <div align="center">
-            <button class="primary-btn filter-button" data-filter="all">All</button>
-            <button class="primary-btn filter-button" data-filter="images">Images</button>
-            <button class="primary-btn filter-button" data-filter="videos">Videos</button>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
+            <a href="#" data-toggle="modal" data-target="#8">
+              <iframe width="100%" src="https://www.youtube.com/embed/xo-9xaWM63U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </a>
           </div>
-          <br/>
-          <div class="tz">
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/1.jpg">
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
+            <a href="#" data-toggle="modal" data-target="#7">
+              <iframe width="100%" src="https://www.youtube.com/embed/9uxohuZ1N_E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </a>
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
+            <a href="#" data-toggle="modal" data-target="#6">
+              <iframe width="100%" src="https://www.youtube.com/embed/LhruSjCFhnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </a>
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/1.jpg">
             <img src="img/gallery/1.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/2.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/2.jpg">
             <img src="img/gallery/2.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/3.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/3.jpg">
             <img src="img/gallery/3.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/4.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/4.jpg">
             <img src="img/gallery/4.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/5.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/5.jpg">
             <img src="img/gallery/5.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/6.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/6.jpg">
             <img src="img/gallery/6.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/7.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/7.jpg">
             <img src="img/gallery/7.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
-              <a href="img/gallery/8.jpg">
+          </div>
+          <div class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter images">
+            <a href="img/gallery/8.jpg">
             <img src="img/gallery/8.jpg" class="img-responsive">
             </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
-              <a href="#" data-toggle="modal" data-target="#9">
-                <iframe width="100%" src="https://www.youtube.com/embed/4rtEDHByTzU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
-              <a href="#" data-toggle="modal" data-target="#8">
-                <iframe width="100%" src="https://www.youtube.com/embed/xo-9xaWM63U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
-              <a href="#" data-toggle="modal" data-target="#7">
-                <iframe width="100%" src="https://www.youtube.com/embed/9uxohuZ1N_E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </a>
-            </div>
-            <div data-aos="fade-up" class="gallery_product col-lg-3 col-md-4 col-sm-4 col-xs-6 filter videos">
-              <a href="#" data-toggle="modal" data-target="#6">
-                <iframe width="100%" src="https://www.youtube.com/embed/LhruSjCFhnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <center>
+      <a href="pages/gallery.html">
+        <button class="primary-btn">Read More</button>
+      </a>
+    </center>
+  </section>
+  <!-- End of gallery -->
+  <!-- Start of latest blog -->
+  <section class="section--padding latestblog latestblog--overlay">
+    <div class="container">
+      <div class="row">
+        <h1 class="heading heading--margin">Latest Blog</h1>
+        <div class="col-md-12">
+          <div class="news">
+            <h3>Mobile Software and Hardware Solution Book</h3>
+            <p>दिपक पोखरेल द्धारा लिखीत Mobile Software and Hardware Solution Book प्रकासन Alliance Pvt.Ltd</p>
+            <div class="fb-share-button" data-href="https://alliancelaptoptraining.com.np/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falliancelaptoptraining.com.np%2F&amp;src=sdkpreparse"><i class="fa fa-share-alt"></i> Share</a> | <a href="pages/singleblog.html"> Read more</a> </div>
+          </div>
+          <div class="news">
+            <h3 class="nepali">एसएलसी, प्लस टु र व्याचलर पछिको खाली समय सदुपयोग गरौं, सिप सिकेर दक्ष बनौं</h3>
+            <p class="nepali">ल्यापटप, मोवाइल, कम्प्युटर, प्रिटर, फोटोकपी, क्यामेरा, प्रोजेक्टर, नेटवर्किङलगायतको चिप लेवल तालिम दिएर दक्ष बनाउँदै एलाइन्सकाठमाडौं । बेरोजगारीको समस्याले मुलुक यतिबेला ग्रस्त बनेको छ । दैनिक हजारौंको संख्यामा नेपाली युवहरु विदेशिन बाध्य छन् । काम र मामको खोजिमा विदेशिन वाध्य युवाहरुको । </p>
+            <div class="fb-share-button" data-href="https://alliancelaptoptraining.com.np/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falliancelaptoptraining.com.np%2F&amp;src=sdkpreparse"><i class="fa fa-share-alt"></i> Share</a> | <a href="pages/singleblog.html"> Read more</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      <a href="pages/blog.html">
+        <button class="primary-btn">Read More</button>
+      </a>
+    </center>
+  </section>
+  <!-- End of latest blog -->
+  <!-- Start of service -->
+  <section class="section--padding service">
+    <div class="container">
+      <h1 class="heading heading--margin">Services</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h3><b>Repair</b></h3>
+          <ul>
+            <li>We Repair all branded laptop</li>
+            <li>Ex. apple, sony, dell, hp, Toshiba, Lenovo acer etc.</li>
+            <li>Desktop computer</li>
+            <li>Branded Dell, Acer, Lenovo and many more</li>
+            <li>Assemble every brand company available</li>
+            <li>Ex. Intel, msi, acer and many more</li>
+            <li>Laptop parts</li>
+            <li>All branded laptop parts available original and copy</li>
+            Ex. Battery, screen, charger, motherboard and many more</li>
+          </ul>
+          <a href="pages/repair.html">
+            <button class="primary-btn">View More</button>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <h3><b>Sales</b></h3>
+          <ul>
+            <li>All branded laptop</li>
+            <li>Ex. apple, sony, dell, hp, Toshiba, Lenovo acer etc.</li>
+            <li>Desktop computer</li>
+            <li>Branded dell, acer, Lenovo and many more</li>
+            <li>Assemble every brand company available</li>
+            <li>Ex. Intel, msi, acer and many more</li>
+            <li>Laptop parts</li>
+            <li>All branded laptop parts available original and copy</li>
+            <li>Ex. Battery, screen, charger, motherboard and many more</li>
+          </ul>
+          <a href="pages/sales.html">
+            <button class="primary-btn">View More</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of service -->
+  <!-- Contact section started -->
+  <section class="section--padding contact contact--overlay">
+    <div class="container">
+      <h1 class="heading heading--margin">Contact</h1>
+      <div class="row">
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.474022259158!2d85.32060342644067!3d27.702647020825832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a85a0ab2c9%3A0x8df89014941d105!2sAlliance+Pvt+.Ltd!5e0!3m2!1sen!2snp!4v1516948635510" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div data-aos="fade-up" data-aos-once="true" class="col-md-6">
+          <p>Putalisadak, Kathmandu, Nepal (In front of Shankderdev Campus)</p>
+          <p>Tel: 014168211</p>
+          <p>Skype id: alliance.Laptoptraining</p>
+          <p>Cell: 9818901754, 9818901754</p>
+          <p>Viber phone: 9841030824</p>
+          <p>E-mail: adm_ap41@yahoo.com.np</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Contact -->
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-details">
+            <h3>About Alliance</h3>
+            <p>
+              We have a broad vision to make technological manpower. IT knowledge is most important for the youth people mostly. They are the future of any country. To challenge the world in the field of technology and to develop the country, youths are the backbone. Serving to the youths is ultimately serving to the country also. So, trainings are provided here to whom, who are interested in this field in a most reasonable prices. <a href="pages/about.html">[ Read More ]</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer-details">
+            <h3>Site Map</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pages/about.html">About Us</a></li>
+              <li><a href="pages/mod-1.html">Courses</a></li>
+              <li><a href="pages/gallery.html">Gallery</a></li>
+              <li><a href="pages/blog.html">Latest Blogs</a></li>
+              <li><a href="pages/repair.html">Services</a></li>
+              <li><a href="pages/student-result.html">Student Results</a></li>
+              <li><a href="pages/successfulstundets.html">Succesfull stundets</a></li>
+              <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-details">
+            <h3>Courses</h3>
+            <ul>
+              <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
+              <li><a href="pages/mod-2.html">Partition/Format and Windows Installation</a></li>
+              <li><a href="pages/mod-3.html">Windows Settings and Security</a></li>
+              <li><a href="pages/mod-4.html">Software and Utilities</a></li>
+              <li><a href="pages/mod-5.html">Internet Concept/Networking/Troubleshooting</a></li>
+              <li><a href="pages/mod-6.html">Chip Level Practice with Testing & Repairing Tools</a></li>
+              <li><a href="pages/mod-7.html">Circuit Tracing and Repairing of Motherboard</a></li>
+              <li><a href="pages/mod-8.html">Laptop Hardware Concept</a></li>
+              <li><a href="pages/mod-9.html">Circuit Tracing and Repairing of Laptop</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer-details">
+            <h3>Contact info</h3>
+            <p>
+              Putalisadak, Kathmandu
+              <br> 01-4168211, 9851174406, 9841030824
+              <br> alliancelaptop@gmail.com
+            </p>
+          </div>
+          <div class="footer-details">
+            <h3>Connect with us</h3>
+            <div class="icons">
+              <a href="http://facebook.com/alliance.laptop"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              <br>
+              <br>
             </div>
           </div>
         </div>
       </div>
-      <center>
-        <a href="pages/gallery.html">
-          <button class="primary-btn">Read More</button>
-        </a>
-      </center>
-    </section>
-    <!-- End of gallery -->
-    <!-- Start of latest blog -->
-    <section class="section--padding latestblog latestblog--overlay">
+    </div>
+    <div class="copyright">
       <div class="container">
         <div class="row">
-          <h1 class="heading heading--margin">Latest Blog</h1>
           <div class="col-md-12">
-            <div  data-aos="fade-up" class="news">
-              <h3>Mobile Software and Hardware Solution Book</h3>
-              <p>दिपक पोखरेल द्धारा लिखीत Mobile Software and Hardware Solution Book प्रकासन Alliance Pvt.Ltd</p>
-              <div class="fb-share-button" data-href="https://alliancelaptoptraining.com.np/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falliancelaptoptraining.com.np%2F&amp;src=sdkpreparse"><i class="fa fa-share-alt"></i> Share</a> | <a href="pages/singleblog.html"> Read more</a> </div>
-            </div>
-            <div  data-aos="fade-up" class="news">
-              <h3 class="nepali">एसएलसी, प्लस टु र व्याचलर पछिको खाली समय सदुपयोग गरौं, सिप सिकेर दक्ष बनौं</h3>
-              <p class="nepali">ल्यापटप, मोवाइल, कम्प्युटर, प्रिटर, फोटोकपी, क्यामेरा, प्रोजेक्टर, नेटवर्किङलगायतको चिप लेवल तालिम दिएर दक्ष बनाउँदै एलाइन्सकाठमाडौं । बेरोजगारीको समस्याले मुलुक यतिबेला ग्रस्त बनेको छ । दैनिक हजारौंको संख्यामा नेपाली युवहरु विदेशिन बाध्य छन् । काम र मामको खोजिमा विदेशिन वाध्य युवाहरुको । </p>
-
-              <div class="fb-share-button" data-href="https://alliancelaptoptraining.com.np/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Falliancelaptoptraining.com.np%2F&amp;src=sdkpreparse"><i class="fa fa-share-alt"></i> Share</a> | <a href="pages/singleblog.html"> Read more</a> </div>
-            </div>
+            <p>Copyright by <a href="#">Alliance Pvt. Ltd.</a> | Designed by <a href="http://facebook.com/kitenepal">KITE Nepal Pvt. Ltd.</a></p>
           </div>
         </div>
       </div>
-      <center>
-        <a href="pages/blog.html">
-          <button class="primary-btn">Read More</button>
-        </a>
-      </center>
-    </section>
-    <!-- End of latest blog -->
-    <!-- Start of service -->
-    <section class="section--padding service">
-      <div class="container">
-        <h1 class="heading heading--margin">Services</h1>
-        <div class="row">
-          <div  data-aos="fade-up" class="col-md-6">
-            <h3><b>Repair</b></h3>
-            <ul>
-              <li>We Repair all branded laptop</li>
-              <li>Ex. apple, sony, dell, hp, Toshiba, Lenovo acer etc.</li>
-              <li>Desktop computer</li>
-              <li>Branded Dell, Acer, Lenovo and many more</li>
-              <li>Assemble every brand company available</li>
-              <li>Ex. Intel, msi, acer and many more</li>
-              <li>Laptop parts</li>
-              <li>All branded laptop parts available original and copy</li>
-              Ex. Battery, screen, charger, motherboard and many more</li>
-            </ul>
-            <a href="pages/repair.html">
-              <button class="primary-btn">View More</button>
-            </a>
-          </div>
-          <div  data-aos="fade-up" class="col-md-6">
-            <h3><b>Sales</b></h3>
-            <ul>
-              <li>All branded laptop</li>
-              <li>Ex. apple, sony, dell, hp, Toshiba, Lenovo acer etc.</li>
-              <li>Desktop computer</li>
-              <li>Branded dell, acer, Lenovo and many more</li>
-              <li>Assemble every brand company available</li>
-              <li>Ex. Intel, msi, acer and many more</li>
-              <li>Laptop parts</li>
-              <li>All branded laptop parts available original and copy</li>
-              <li>Ex. Battery, screen, charger, motherboard and many more</li>
-            </ul>
-            <a href="pages/sales.html">
-              <button class="primary-btn">View More</button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of service -->
-    <!-- Contact section started -->
-    <section class="section--padding contact contact--overlay">
-      <div class="container">
-        <h1 class="heading heading--margin">Contact</h1>
-        <div class="row">
-          <div  data-aos="fade-up" class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.474022259158!2d85.32060342644067!3d27.702647020825832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a85a0ab2c9%3A0x8df89014941d105!2sAlliance+Pvt+.Ltd!5e0!3m2!1sen!2snp!4v1516948635510" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <div  data-aos="fade-up" class="col-md-6">
-            <p>Putalisadak, Kathmandu, Nepal (In front of Shankderdev Campus)</p>
-            <p>Tel: 014168211</p>
-            <p>Skype id: alliance.Laptoptraining</p>
-            <p>Cell: 9818901754, 9818901754</p>
-            <p>Viber phone: 9841030824</p>
-            <p>E-mail: adm_ap41@yahoo.com.np</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Contact -->
-    <!-- Start of footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="footer-details">
-              <h3>About Alliance</h3>
-              <p>
-                We have a broad vision to make technological manpower. IT knowledge is most important for the youth people mostly. They are the future of any country. To challenge the world in the field of technology and to develop the country, youths are the backbone. Serving to the youths is ultimately serving to the country also. So, trainings are provided here to whom, who are interested in this field in a most reasonable prices. <a href="pages/about.html">[ Read More ]</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="footer-details">
-              <h3>Site Map</h3>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/about.html">About Us</a></li>
-                <li><a href="pages/mod-1.html">Courses</a></li>
-                <li><a href="pages/gallery.html">Gallery</a></li>
-                <li><a href="pages/blog.html">Latest Blogs</a></li>
-                <li><a href="pages/repair.html">Services</a></li>
-                <li><a href="pages/student-result.html">Student Results</a></li>
-                <li><a href="pages/successfulstundets.html">Succesfull stundets</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="footer-details">
-              <h3>Courses</h3>
-              <ul>
-                <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
-                <li><a href="pages/mod-2.html">Partition/Format and Windows Installation</a></li>
-                <li><a href="pages/mod-3.html">Windows Settings and Security</a></li>
-                <li><a href="pages/mod-4.html">Software and Utilities</a></li>
-                <li><a href="pages/mod-5.html">Internet Concept/Networking/Troubleshooting</a></li>
-                <li><a href="pages/mod-6.html">Chip Level Practice with Testing & Repairing Tools</a></li>
-                <li><a href="pages/mod-7.html">Circuit Tracing and Repairing of Motherboard</a></li>
-                <li><a href="pages/mod-8.html">Laptop Hardware Concept</a></li>
-                <li><a href="pages/mod-9.html">Circuit Tracing and Repairing of Laptop</a></li>
-              </ul>
-            </div>
-          </div>  
-          <div class="col-md-2">
-            <div class="footer-details">
-              <h3>Contact info</h3>
-              <p>
-                Putalisadak, Kathmandu
-                <br> 01-4168211, 9851174406, 9841030824
-                <br> alliancelaptop@gmail.com
-              </p>
-            </div>
-            <div class="footer-details">
-              <h3>Connect with us</h3>
-              <div class="icons">
-                <a href="http://facebook.com/alliance.laptop"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                <br><br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <p>Copyright by <a href="#">Alliance Pvt. Ltd.</a> | Designed by <a href="http://facebook.com/kitenepal">KITE Nepal Pvt. Ltd.</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- End of footer -->
+    </div>
+  </footer>
+  <!-- End of footer -->
   <!-- Goto top -->
   <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket"><i></i></a>
   <!-- End -->
@@ -514,17 +524,20 @@
   <script src="js/gallery.js"></script>
   <!-- Gallery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <!-- Other -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/kitenepal.js"></script>
+  <script src="js/aos.js"></script>
   <script>
   baguetteBox.run('.tz');
   </script>
   <script>
     AOS.refresh();
     AOS.init({
-      offset: 0,
       duration: 1200,
       easing: 'ease-in-out-back',
       startEvent: 'load',
-      disable: window.innerWidth < 600
+      //disable: window.innerWidth < 600
     });
   </script>
 </body>
