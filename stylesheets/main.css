@@ -123,6 +123,11 @@ body p, body li, body a, body button {
   }
 }
 /* line 110, ../sass/base/_base.scss */
+.container--paddingtop {
+  margin-top: 30px !important;
+}
+
+/* line 114, ../sass/base/_base.scss */
 .nepali {
   font-family: "Biryani", sans-serif;
 }
