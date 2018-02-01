@@ -14,6 +14,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- For scroll animation -->
+   <link rel="stylesheet" href="stylesheets/aos.css"/>
+   <script src="js/aos.js"></script>
+  <!-- End of scroll animation links -->
 </head>
 
 <body>
@@ -180,7 +185,7 @@
     <!-- About us -->
     <section class="about">
       <div class="row">
-        <div class="col-md-6">
+        <div data-aos="fade" class="col-md-6">
           <h1 class="heading">About us</h1>
           <p>Today the world is running under the technology. Without technological knowledge, our daily activities are being difficult. The whole world is captured by technology. Whether it is most developed country or least developed country, the impact of technology is seen everywhere.</p>
           <p>
@@ -189,7 +194,7 @@
             <button class="primary-btn btn-tranform">Read More</button>
           </a>
         </div>
-        <div class="col-md-6 about--img">
+        <div data-aos="fade" class="col-md-6 about--img">
           <img src="img/abt.jpg">
         </div>
       </div>
@@ -200,7 +205,7 @@
       <div class="container">
         <div class="row">
           <h1 class="heading heading--margin">Courses</h1>
-          <div class="col-md-4">
+          <div data-aos="fade-right" data-aos-offset="100" class="col-md-4">
             <div class="course--box">
               <h3>Computer Hardware Technology</h3>
               <ul>
@@ -212,7 +217,7 @@
               <a href="pages/mod-1.html"><button class="primary-btn">More Details</button></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div data-aos="fade-right" data-aos-offset="500" class="col-md-4">
             <div class="course--box">
               <h3>Partition/Format and Windows Installation</h3>
               <ul>
@@ -227,7 +232,7 @@
               <a href="pages/mod-2.html"><button class="primary-btn">More Details</button></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div data-aos="fade-right" data-aos-offset="100" class="col-md-4">
             <div class="course--box">
               <h3>Windows Settings and Security</h3>
               <ul>
@@ -511,6 +516,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
   <script>
   baguetteBox.run('.tz');
+  </script>
+
+  <script>
+    AOS.init({
+      offset: 0,
+      duration: 600,
+      easing: 'ease-in',
+      delay: 50,
+    });
+
+    AOS.init({
+      disable: 'mobile'
+    });
   </script>
 </body>
 
