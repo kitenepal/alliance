@@ -374,12 +374,22 @@ header .header--callus {
   background-color: #2189d3 !important;
 }
 
-/* line 228, ../sass/module/_navbar.scss */
-#nav.affix {
+/* line 236, ../sass/module/_navbar.scss */
+.sticky {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 10;
+}
+
+/* line 243, ../sass/module/_navbar.scss */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* line 247, ../sass/module/_navbar.scss */
+.content {
+  padding: 1600px;
 }
 
 /* line 1, ../sass/module/_hero.scss */
@@ -395,8 +405,8 @@ img {
 /*START SLIDER CSS  */
 /* line 14, ../sass/module/_hero.scss */
 .slider_item1 {
-  min-height: 300px;
-  max-height: 480px;
+  min-height: 320px;
+  max-height: 460px;
 }
 
 /* line 19, ../sass/module/_hero.scss */
@@ -422,7 +432,7 @@ img {
 
 /* line 37, ../sass/module/_hero.scss */
 .overlay_background {
-  height: 480px;
+  height: 460px;
   width: 100%;
   background: rgba(11, 25, 45, 0.4);
 }
@@ -510,6 +520,11 @@ img {
 }
 
 /* line 116, ../sass/module/_hero.scss */
+.carousel-indicators {
+  z-index: 5 !important;
+}
+
+/* line 120, ../sass/module/_hero.scss */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -517,18 +532,18 @@ img {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #FFA726 !important;
+  background-color: #3ca522 !important;
   background-color: transparent;
-  border: 1px solid #0B192D !important;
+  border: 1px solid white !important;
   border-radius: 0px !important;
 }
 
-/* line 129, ../sass/module/_hero.scss */
+/* line 133, ../sass/module/_hero.scss */
 .carousel-indicators .active {
   width: 12px;
   height: 15px !important;
   margin: 0;
-  background-color: #0B192D !important;
+  background-color: #3ca522 !important;
 }
 
 /*END SLIDER CSS  */

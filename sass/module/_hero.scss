@@ -12,8 +12,8 @@ img {
 /*START SLIDER CSS  */
 
 .slider_item1 {
-  min-height: 300px;
-  max-height: 480px;
+  min-height: 320px;
+  max-height: 460px;
 }
 
 .slider_bg_1 {
@@ -35,7 +35,7 @@ img {
 }
 
 .overlay_background {
-  height: 480px;
+  height: 460px;
   width: 100%;
   background: rgba(11, 25, 45, 0.4);
   //rgba(1, 56, 96, 0.9)
@@ -113,6 +113,10 @@ img {
 
 element.style {}
 
+.carousel-indicators{
+  z-index:5 !important;
+}
+
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -120,9 +124,9 @@ element.style {}
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #FFA726!important;
+  background-color: $btndark !important;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #0B192D!important;
+  border: 1px solid white!important;
   border-radius: 0px!important;
 }
 
@@ -130,7 +134,7 @@ element.style {}
   width: 12px;
   height: 15px!important;
   margin: 0;
-  background-color: #0B192D!important;
+  background-color: $btndark !important;
 }
 /*END SLIDER CSS  */
 
