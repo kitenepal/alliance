@@ -555,6 +555,10 @@ img {
   padding: 5px 10px;
   transition: 0.3s ease-in-out;
 }
+/* line 20, ../sass/module/_course.scss */
+.course h3 {
+  color: #e5ec12;
+}
 
 /* line 3, ../sass/module/_gallery.scss */
 .gallery-title {
