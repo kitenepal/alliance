@@ -46,59 +46,57 @@
     </div>
     <!-- Navbar -->
     <div id="navbar">
-      <nav id="nav">
-        <div class="navbar navbar-default navbar-static" role="navigation" id="header">
-          <div class="container">
-            <div class="row">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div class="navbar-collapse collapse">
-                <!-- Left nav -->
-                <ul class="nav navbar-nav">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="pages/about.html">About Us</a></li>
-                  <li><a href="#">Courses<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
-                      <li><a href="pages/mod-2.html">Partition/Format and Windows Installation</a></li>
-                      <li><a href="pages/mod-3.html">Windows Settings and Security</a></li>
-                      <li><a href="pages/mod-4.html">Software and Utilities</a></li>
-                      <li><a href="pages/mod-5.html">Internet Concept/Networking/Troubleshooting</a></li>
-                      <li><a href="pages/mod-6.html">Chip Level Practice with Testing & Repairing Tools</a></li>
-                      <li><a href="pages/mod-7.html">Circuit Tracing and Repairing of Motherboard</a></li>
-                      <li><a href="pages/mod-8.html">Laptop Hardware Concept</a></li>
-                      <li><a href="pages/mod-9.html">Circuit Tracing and Repairing of Laptop</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="pages/gallery.html">Gallery</a></li>
-                  <li><a href="pages/blog.html">Latest Blogs</a></li>
-                  <li><a href="#">Services<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="pages/repair.html">Repair</a></li>
-                      <li><a href="pages/sales.html">Sales</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="pages/student-result.html">Student Results</a></li>
-                  <li><a href="pages/successfulstundets.html">Successful Students</a></li>
-                  <li><a href="pages/contact.html">Contact</a></li>
-                </ul>
-              </div>
+      <div class="navbar navbar-default navbar-static" role="navigation" id="header">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse">
+              <!-- Left nav -->
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
+                <li><a href="#">Courses<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="pages/mod-1.html">Computer Hardware Concept</a></li>
+                    <li><a href="pages/mod-2.html">Partition/Format and Windows Installation</a></li>
+                    <li><a href="pages/mod-3.html">Windows Settings and Security</a></li>
+                    <li><a href="pages/mod-4.html">Software and Utilities</a></li>
+                    <li><a href="pages/mod-5.html">Internet Concept/Networking/Troubleshooting</a></li>
+                    <li><a href="pages/mod-6.html">Chip Level Practice with Testing & Repairing Tools</a></li>
+                    <li><a href="pages/mod-7.html">Circuit Tracing and Repairing of Motherboard</a></li>
+                    <li><a href="pages/mod-8.html">Laptop Hardware Concept</a></li>
+                    <li><a href="pages/mod-9.html">Circuit Tracing and Repairing of Laptop</a></li>
+                  </ul>
+                </li>
+                <li><a href="pages/gallery.html">Gallery</a></li>
+                <li><a href="pages/blog.html">Latest Blogs</a></li>
+                <li><a href="#">Services<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="pages/repair.html">Repair</a></li>
+                    <li><a href="pages/sales.html">Sales</a></li>
+                  </ul>
+                </li>
+                <li><a href="pages/student-result.html">Student Results</a></li>
+                <li><a href="pages/successfulstundets.html">Successful Students</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+              </ul>
             </div>
           </div>
         </div>
-      </nav>
+      </div>
     </div>
   </header>
   <!-- End of header and navbar -->
-  <div class="contain">
+  <div class="">
     <!--Start of hero image slider -->
-    <section id="slider" class="hero hero--slider">
+    <section id="slider" class="contain hero hero--slider">
       <div class="overlay_background">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -336,7 +334,6 @@
             <img src="img/gallery/8.jpg" class="img-responsive">
             </a>
           </div>
-          
         </div>
       </div>
     </div>
@@ -532,13 +529,13 @@
   baguetteBox.run('.tz');
   </script>
   <script>
-    AOS.refresh();
-    AOS.init({
-      duration: 1200,
-      easing: 'ease-in-out-back',
-      startEvent: 'load',
-      //disable: window.innerWidth < 600
-    });
+  AOS.refresh();
+  AOS.init({
+    duration: 1200,
+    easing: 'ease-in-out-back',
+    startEvent: 'load',
+    //disable: window.innerWidth < 600
+  });
   </script>
 </body>
 

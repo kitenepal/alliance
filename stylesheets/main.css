@@ -379,6 +379,14 @@ header .header--callus {
   background-color: #2189d3 !important;
 }
 
+/* line 236, ../sass/module/_navbar.scss */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 /* line 1, ../sass/module/_hero.scss */
 img {
   max-width: 100%;
