@@ -137,6 +137,41 @@ body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duratio
   font-family: "Biryani", sans-serif;
 }
 
+/* line 1, ../sass/module/_latestNews.scss */
+.marqueeNews {
+  padding-bottom: 40px;
+}
+
+/* line 4, ../sass/module/_latestNews.scss */
+.latestnews {
+  background-color: #f00;
+  opacity: 0.8;
+  color: #fff;
+}
+/* line 8, ../sass/module/_latestNews.scss */
+.latestnews p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* line 13, ../sass/module/_latestNews.scss */
+.news {
+  background-color: #014a81;
+  color: #fff;
+  border-right: 5px solid #f00;
+}
+/* line 17, ../sass/module/_latestNews.scss */
+.news p {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 900px) {
+  /* line 24, ../sass/module/_latestNews.scss */
+  .marqueeNews {
+    padding-bottom: 20px;
+  }
+}
 /* line 2, ../sass/module/_navbar.scss */
 header h4 {
   font-family: "Abel", sans-serif;
