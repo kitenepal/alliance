@@ -1,16 +1,17 @@
 .marqueeNews{
-	padding-bottom: 40px;
+	padding-bottom: 50px;
+	.latestnews{
+		background-color: #f00;
+		opacity: 0.8;
+		color: #fff;
+		p{
+			font-weight: bold;
+			margin-bottom: 1px;
+		};
+	}
 }
-.latestnews{
-	background-color: #f00;
-	opacity: 0.8;
-	color: #fff;
-	p{
-		font-weight: bold;
-	margin-bottom: 5px;
-	};
-}
-.news{
+
+.m-news{
 	background-color: $primary-color;
 	color: #fff;
 	border-right: 5px solid #f00;
@@ -19,6 +20,7 @@
 	padding: 0px;
 	}
 }
+
 
 @media (max-width: 700px){
 	.marqueeNews{
