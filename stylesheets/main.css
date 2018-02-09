@@ -166,7 +166,7 @@ body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duratio
   padding: 0px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   /* line 24, ../sass/module/_latestNews.scss */
   .marqueeNews {
     padding-bottom: 20px;
