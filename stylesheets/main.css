@@ -452,40 +452,39 @@ img {
 .slider_bg_1 {
   background-image: url("../img/hero1.jpg");
   background-size: cover;
-  background-attachment: fixed;
 }
 
-/* line 25, ../sass/module/_hero.scss */
+/* line 24, ../sass/module/_hero.scss */
 .slider_bg_2 {
   background-image: url("http://commonpixel.com/themes/edgar/images/examples/slideshow_01.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* line 31, ../sass/module/_hero.scss */
+/* line 30, ../sass/module/_hero.scss */
 .slider_bg_3 {
   background-image: url("http://commonpixel.com/themes/edgar/images/examples/slideshow_03.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* line 37, ../sass/module/_hero.scss */
+/* line 36, ../sass/module/_hero.scss */
 .overlay_background {
   height: 495px;
   width: 100%;
 }
 
-/* line 44, ../sass/module/_hero.scss */
+/* line 43, ../sass/module/_hero.scss */
 .description {
   margin-top: 150px;
 }
 
-/* line 48, ../sass/module/_hero.scss */
+/* line 47, ../sass/module/_hero.scss */
 .title {
   color: #fff;
 }
 
-/* line 52, ../sass/module/_hero.scss */
+/* line 51, ../sass/module/_hero.scss */
 .title p {
   margin: 0 0 5px 0;
   font-family: "Montserrat", sans-serif;
@@ -494,7 +493,7 @@ img {
   text-transform: uppercase;
 }
 
-/* line 60, ../sass/module/_hero.scss */
+/* line 59, ../sass/module/_hero.scss */
 .title h1 {
   font-weight: 600;
   margin-bottom: 20px;
@@ -502,7 +501,7 @@ img {
   color: #fff;
 }
 
-/* line 67, ../sass/module/_hero.scss */
+/* line 66, ../sass/module/_hero.scss */
 .button {
   position: relative;
   display: inline-block;
@@ -513,25 +512,25 @@ img {
   font-size: .9em;
 }
 
-/* line 77, ../sass/module/_hero.scss */
+/* line 76, ../sass/module/_hero.scss */
 .button.primary {
   background: #ffa726;
   color: #fff;
 }
 
-/* line 82, ../sass/module/_hero.scss */
+/* line 81, ../sass/module/_hero.scss */
 .button.primary:hover {
   background: #0b192d;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 88, ../sass/module/_hero.scss */
+/* line 87, ../sass/module/_hero.scss */
 .button.large {
   padding: 10px 35px;
 }
 
-/* line 92, ../sass/module/_hero.scss */
+/* line 91, ../sass/module/_hero.scss */
 .button.transparent {
   background: rgba(255, 255, 255, 0.2);
   outline: 1px solid rgba(255, 255, 255, 0.4);
@@ -539,7 +538,7 @@ img {
   margin-left: 20px;
 }
 
-/* line 99, ../sass/module/_hero.scss */
+/* line 98, ../sass/module/_hero.scss */
 .button.transparent:hover {
   background: #0b192d;
   outline: 1px solid #0b192d;
@@ -547,22 +546,22 @@ img {
   text-decoration: none;
 }
 
-/* line 106, ../sass/module/_hero.scss */
+/* line 105, ../sass/module/_hero.scss */
 .button.large {
   padding: 10px 35px;
 }
 
-/* line 110, ../sass/module/_hero.scss */
+/* line 109, ../sass/module/_hero.scss */
 .title .break {
   display: block;
 }
 
-/* line 116, ../sass/module/_hero.scss */
+/* line 115, ../sass/module/_hero.scss */
 .carousel-indicators {
   z-index: 5 !important;
 }
 
-/* line 120, ../sass/module/_hero.scss */
+/* line 119, ../sass/module/_hero.scss */
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -576,7 +575,7 @@ img {
   border-radius: 0px !important;
 }
 
-/* line 133, ../sass/module/_hero.scss */
+/* line 132, ../sass/module/_hero.scss */
 .carousel-indicators .active {
   width: 12px;
   height: 15px !important;
