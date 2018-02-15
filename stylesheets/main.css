@@ -453,33 +453,30 @@ img {
 .slider_bg_2 {
   background-image: url("http://commonpixel.com/themes/edgar/images/examples/slideshow_01.jpg");
   background-size: cover;
-  background-attachment: fixed;
 }
 
-/* line 30, ../sass/module/_hero.scss */
 .slider_bg_3 {
   background-image: url("http://commonpixel.com/themes/edgar/images/examples/slideshow_03.jpg");
   background-size: cover;
-  background-attachment: fixed;
 }
 
-/* line 36, ../sass/module/_hero.scss */
+
 .overlay_background {
   height: 495px;
   width: 100%;
 }
 
-/* line 43, ../sass/module/_hero.scss */
+
 .description {
   margin-top: 150px;
 }
 
-/* line 47, ../sass/module/_hero.scss */
+
 .title {
   color: #fff;
 }
 
-/* line 51, ../sass/module/_hero.scss */
+
 .title p {
   margin: 0 0 5px 0;
   font-family: "Montserrat", sans-serif;
@@ -488,7 +485,7 @@ img {
   text-transform: uppercase;
 }
 
-/* line 59, ../sass/module/_hero.scss */
+
 .title h1 {
   font-weight: 600;
   margin-bottom: 20px;
@@ -496,7 +493,7 @@ img {
   color: #fff;
 }
 
-/* line 66, ../sass/module/_hero.scss */
+
 .button {
   position: relative;
   display: inline-block;
@@ -507,25 +504,25 @@ img {
   font-size: .9em;
 }
 
-/* line 76, ../sass/module/_hero.scss */
+
 .button.primary {
   background: #ffa726;
   color: #fff;
 }
 
-/* line 81, ../sass/module/_hero.scss */
+
 .button.primary:hover {
   background: #0b192d;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 87, ../sass/module/_hero.scss */
+
 .button.large {
   padding: 10px 35px;
 }
 
-/* line 91, ../sass/module/_hero.scss */
+
 .button.transparent {
   background: rgba(255, 255, 255, 0.2);
   outline: 1px solid rgba(255, 255, 255, 0.4);
@@ -533,7 +530,7 @@ img {
   margin-left: 20px;
 }
 
-/* line 98, ../sass/module/_hero.scss */
+
 .button.transparent:hover {
   background: #0b192d;
   outline: 1px solid #0b192d;
@@ -541,22 +538,21 @@ img {
   text-decoration: none;
 }
 
-/* line 105, ../sass/module/_hero.scss */
+
 .button.large {
   padding: 10px 35px;
 }
 
-/* line 109, ../sass/module/_hero.scss */
 .title .break {
   display: block;
 }
 
-/* line 115, ../sass/module/_hero.scss */
+
 .carousel-indicators {
   z-index: 5 !important;
 }
 
-/* line 119, ../sass/module/_hero.scss */
+
 .carousel-indicators li {
   display: inline-block;
   width: 10px;
@@ -570,7 +566,7 @@ img {
   border-radius: 0px !important;
 }
 
-/* line 132, ../sass/module/_hero.scss */
+
 .carousel-indicators .active {
   width: 12px;
   height: 15px !important;
