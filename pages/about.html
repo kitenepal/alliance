@@ -177,7 +177,14 @@
         <p>There are many other training center but most successful training center among them is ALLIANCE LAPTOP REPAIRING AND TRAINING CENTER. We use machines for repairing which are not available in other repairing center. We are using BGA Machine, CRO Machine, SMD Machine, BIOS flasher, BIOS programmer, Diagnostic card etc. So our service is qualitatively best. We have found the best market rating after our market research. Productivity of this training center is best ever. Many people got the job after getting training from here.</p>
         <p>We provide guaranteed repairing service. Complains never will be come after providing service from here. So, come and make your future bright and live a dignified life.</p>
       </div>
-      <button class="primary-btn" data-toggle="collapse" data-target="#rest_paragraph">View More</button>
+      <button class="primary-btn collapsed" data-toggle="collapse" data-target="#rest_paragraph">View More</button>
+      <script>
+        $('button').click(function(){
+          $(this).text(function(i,old){
+              return old=='View More' ?  'View Less' : 'View More';
+          });
+        });
+      </script>
     </div>
     <!-- /About Us -->
     <!-- why alliance -->
