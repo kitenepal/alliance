@@ -461,6 +461,10 @@ img {
 .about--img {
   padding: 0 !important;
 }
+/* line 9, ../sass/module/_about.scss */
+.about .about--video {
+  margin-bottom: 15px;
+}
 
 /* line 1, ../sass/module/_course.scss */
 .course {
