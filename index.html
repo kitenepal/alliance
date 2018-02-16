@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
   <!-- For scroll animation -->
@@ -165,93 +166,41 @@
   </header>
   <!-- End of header and navbar -->
   <div class="">
-    <!--Start of hero image slider -->
-    <section id="slider" class="contain hero hero--slider">
-      <div class="overlay_background">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <div class="slider_item1 slider_bg_1">
-                <div class="overlay_background">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <!-- <div class="description wow  fadeInUp" data-slide="2" style="top: 206.389px;">
-                          <div class="title">
-                            <p>No. 1 ChipLevel Institute in Nepal</p>
-                            <h1>Successful <span class="break">Students</span></h1>
-                          </div>
-                          <div>
-                            <a href="pages/successfulstundets.html">
-                              <button type="button" class="primary-btn">Read more</button>
-                            </a>
-                          </div>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="slider_item1 slider_bg_2">
-                <div class="overlay_background">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <!-- <div class="description wow fadeInUp" data-slide="2" style="top: 206.389px;">
-                          <div class="title">
-                            <p>Hardware Sales</p>
-                            <h1>100%<span class="break">Satisfaction</span></h1>
-                          </div>
-                          <div>
-                            <a href="pages/sales.html">
-                              <button type="button" class="primary-btn">Read more</button>
-                            </a>
-                          </div>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="slider_item1 slider_bg_3">
-                <div class="overlay_background">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <!-- <div class="description wow fadeInUp" data-slide="2" style="top: 206.389px;">
-                          <div class="title">
-                            <p>No. 1 ChipLevel Institute in Nepal</p>
-                            <h1>Trusted <span class="break">Company</span></h1>
-                          </div>
-                          <div>
-                            <a href="pages/about.html">
-                              <button type="button" class="primary-btn">Read More</button>
-                            </a>
-                          </div>
-                        </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Controls -->
-        </div>
+    <!-- slider -->
+  <div id="carousel-example" class="carousel slide md--carousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example" data-slide-to="1"></li>
+      <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="#"><img src="img/hero1.jpg" width="100%"/></a>
+        <!--<div class="carousel-caption">
+        <h3>Meow</h3>
+        <p>Just Kitten Around</p>
+      </div>-->
       </div>
-    </section>
-    <!-- End of hero image slider -->
+      <div class="item">
+        <a href="#"><img src="img/hero1.jpg" width="100%"/></a>
+        <!--<div class="carousel-caption">
+        <h3>Meow</h3>
+        <p>Just Kitten Around</p>
+      </div>-->
+      </div>
+      <div class="item">
+        <a href="#"><img src="img/hero1.jpg" width="100%"/></a>
+        <!--<div class="carousel-caption">
+        <h3>Meow</h3>
+        <p>Just Kitten Around</p>
+      </div>-->
+      </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>            
   </div>
   <!-- About us -->
   <section class="about">
