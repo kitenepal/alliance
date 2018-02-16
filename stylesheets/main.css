@@ -192,59 +192,65 @@ header .header--callus {
     padding: 0px 0px;
   }
 }
-/* line 23, ../sass/module/_navbar.scss */
+@media only screen and (min-width: 768px) {
+  /* line 25, ../sass/module/_navbar.scss */
+  header .header--right {
+    margin-top: -15px;
+  }
+}
+/* line 32, ../sass/module/_navbar.scss */
 .navbar {
   background-color: #014a81 !important;
   border-radius: 0px !important;
   border: 0px !important;
 }
-/* line 27, ../sass/module/_navbar.scss */
+/* line 36, ../sass/module/_navbar.scss */
 .navbar-default {
   border: 0px;
 }
-/* line 30, ../sass/module/_navbar.scss */
+/* line 39, ../sass/module/_navbar.scss */
 .navbar-default li a {
   color: white !important;
   transition: 0.3s ease-in-out;
 }
-/* line 34, ../sass/module/_navbar.scss */
+/* line 43, ../sass/module/_navbar.scss */
 .navbar-default li a:hover {
   background-color: #2189d3 !important;
 }
-/* line 37, ../sass/module/_navbar.scss */
+/* line 46, ../sass/module/_navbar.scss */
 .navbar-default li a:active {
   background-color: #2189d3 !important;
 }
-/* line 40, ../sass/module/_navbar.scss */
+/* line 49, ../sass/module/_navbar.scss */
 .navbar-default li a:focus {
   background-color: #2189d3 !important;
 }
-/* line 45, ../sass/module/_navbar.scss */
+/* line 54, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu {
   background-color: #014a81;
 }
-/* line 48, ../sass/module/_navbar.scss */
+/* line 57, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a {
   color: white !important;
 }
-/* line 51, ../sass/module/_navbar.scss */
+/* line 60, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a:hover {
   background-color: #2189d3 !important;
 }
-/* line 54, ../sass/module/_navbar.scss */
+/* line 63, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a:active {
   background-color: #2189d3 !important;
 }
-/* line 57, ../sass/module/_navbar.scss */
+/* line 66, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu li a:focus {
   background-color: #2189d3 !important;
 }
-/* line 61, ../sass/module/_navbar.scss */
+/* line 70, ../sass/module/_navbar.scss */
 .navbar .dropdown-menu .divider {
   background-color: #2189d3 !important;
 }
 
-/* line 67, ../sass/module/_navbar.scss */
+/* line 76, ../sass/module/_navbar.scss */
 .navbar-nav:not(.sm-collapsible) ul .caret {
   position: absolute;
   right: 0;
@@ -255,13 +261,13 @@ header .header--callus {
   border-left: 4px dashed;
 }
 
-/* line 77, ../sass/module/_navbar.scss */
+/* line 86, ../sass/module/_navbar.scss */
 .navbar-nav:not(.sm-collapsible) ul a.has-submenu {
   padding-right: 30px;
 }
 
 /* make sub menu arrows look like +/- buttons in collapsible mode */
-/* line 84, ../sass/module/_navbar.scss */
+/* line 93, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible .caret,
 .navbar-nav.sm-collapsible ul .caret {
   position: absolute;
@@ -276,25 +282,25 @@ header .header--callus {
   border-style: solid;
 }
 
-/* line 98, ../sass/module/_navbar.scss */
+/* line 107, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible .caret:before {
   content: '+';
   font-family: monospace;
   font-weight: bold;
 }
 
-/* line 104, ../sass/module/_navbar.scss */
+/* line 113, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible .open > a > .caret:before {
   content: '-';
 }
 
-/* line 108, ../sass/module/_navbar.scss */
+/* line 117, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible a.has-submenu {
   padding-right: 50px;
 }
 
 /* revert to Bootstrap's default carets in collapsible mode when the "data-sm-skip-collapsible-behavior" attribute is set to the ul.navbar-nav */
-/* line 115, ../sass/module/_navbar.scss */
+/* line 124, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret,
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] ul .caret {
   position: static;
@@ -308,18 +314,18 @@ header .header--callus {
   border-left: 4px solid transparent;
 }
 
-/* line 128, ../sass/module/_navbar.scss */
+/* line 137, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] .caret:before {
   content: '' !important;
 }
 
-/* line 132, ../sass/module/_navbar.scss */
+/* line 141, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible[data-sm-skip-collapsible-behavior] a.has-submenu {
   padding-right: 15px;
 }
 
 /* scrolling arrows for tall menus */
-/* line 139, ../sass/module/_navbar.scss */
+/* line 148, ../sass/module/_navbar.scss */
 .navbar-nav span.scroll-up,
 .navbar-nav span.scroll-down {
   position: absolute;
@@ -330,7 +336,7 @@ header .header--callus {
   text-align: center;
 }
 
-/* line 149, ../sass/module/_navbar.scss */
+/* line 158, ../sass/module/_navbar.scss */
 .navbar-nav span.scroll-up-arrow,
 .navbar-nav span.scroll-down-arrow {
   position: absolute;
@@ -346,7 +352,7 @@ header .header--callus {
   border-left: 7px dashed transparent;
 }
 
-/* line 164, ../sass/module/_navbar.scss */
+/* line 173, ../sass/module/_navbar.scss */
 .navbar-nav span.scroll-down-arrow {
   top: 6px;
   border-top: 7px solid;
@@ -356,64 +362,64 @@ header .header--callus {
 }
 
 /* add more indentation for 2+ level sub in collapsible mode - Bootstrap normally supports just 1 level sub menus */
-/* line 175, ../sass/module/_navbar.scss */
+/* line 184, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul .dropdown-menu .dropdown-header {
   padding-left: 35px;
 }
 
-/* line 180, ../sass/module/_navbar.scss */
+/* line 189, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul ul .dropdown-menu .dropdown-header {
   padding-left: 45px;
 }
 
-/* line 185, ../sass/module/_navbar.scss */
+/* line 194, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul ul ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul ul ul .dropdown-menu .dropdown-header {
   padding-left: 55px;
 }
 
-/* line 190, ../sass/module/_navbar.scss */
+/* line 199, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu > li > a,
 .navbar-nav.sm-collapsible ul ul ul ul .dropdown-menu .dropdown-header {
   padding-left: 65px;
 }
 
 /* fix SmartMenus sub menus auto width (subMenusMinWidth and subMenusMaxWidth options) */
-/* line 198, ../sass/module/_navbar.scss */
+/* line 207, ../sass/module/_navbar.scss */
 .navbar-nav .dropdown-menu > li > a {
   white-space: normal;
 }
 
-/* line 202, ../sass/module/_navbar.scss */
+/* line 211, ../sass/module/_navbar.scss */
 .navbar-nav ul.sm-nowrap > li > a {
   white-space: nowrap;
 }
 
-/* line 206, ../sass/module/_navbar.scss */
+/* line 215, ../sass/module/_navbar.scss */
 .navbar-nav.sm-collapsible ul.sm-nowrap > li > a {
   white-space: normal;
 }
 
 /* fix .navbar-right subs alignment */
-/* line 213, ../sass/module/_navbar.scss */
+/* line 222, ../sass/module/_navbar.scss */
 .navbar-right ul.dropdown-menu {
   left: 0;
   right: auto;
 }
 
-/* line 218, ../sass/module/_navbar.scss */
+/* line 227, ../sass/module/_navbar.scss */
 .navbar-nav > .open > a, .navbar-nav > .open > a:focus, .navbar-nav > .open > a:hover {
   background-color: #2189d3 !important;
 }
 
-/* line 223, ../sass/module/_navbar.scss */
+/* line 232, ../sass/module/_navbar.scss */
 .navbar-toggle:hover, .navbar-toggle:active, .navbar-toggle:focus {
   background-color: #2189d3 !important;
 }
 
-/* line 236, ../sass/module/_navbar.scss */
+/* line 245, ../sass/module/_navbar.scss */
 .sticky {
   position: fixed;
   top: 0;
@@ -421,7 +427,7 @@ header .header--callus {
   z-index: 10;
 }
 
-/* line 244, ../sass/module/_navbar.scss */
+/* line 253, ../sass/module/_navbar.scss */
 .nav .open > a {
   background: #2189d3 !important;
 }
